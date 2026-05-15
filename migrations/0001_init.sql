@@ -1,0 +1,2 @@
+-- @connectingmatrix/ai-agents-advanced package-owned migrations.
+-- Package-specific migrations are appended by each module.
