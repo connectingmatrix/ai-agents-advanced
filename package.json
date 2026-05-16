@@ -64,7 +64,7 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@connectingmatrix/ai-agents": "0.1.0"
+    "@connectingmatrix/ai-agents": "file:../ai-agents"
   },
   "devDependencies": {
     "typescript": "^5.8.3"
