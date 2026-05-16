@@ -1,0 +1,41 @@
+# Auto-generated API
+
+```json
+{
+  "package": "@connectingmatrix/ai-agents-advanced",
+  "summary": "Derived advanced agents grouped by agent name. Does not own workflow/tree/node designer agents.",
+  "contracts": [
+    "AdvancedAIAgents.agents()",
+    "AdvancedAIAgents.plan/list/getObject/executePlan",
+    "AdvancedAIAgents.runAgent(kind, input)",
+    "AdvancedAIAgents.designOutput()",
+    "agents/planner",
+    "agents/researcher",
+    "agents/output-designer",
+    "agents/software-builder",
+    "agents/deployment",
+    "agents/memory-analyst",
+    "agents/gis-image"
+  ],
+  "exports": [
+    ".",
+    "./backend",
+    "./ui",
+    "./entity",
+    "./package.json",
+    "./package-structure",
+    "./launcher",
+    "./observability",
+    "./backend/agents"
+  ],
+  "folderCounts": {
+    "src/ui": 5,
+    "src/backend": 9,
+    "src/entity": 4,
+    "migrations": 7,
+    "tests": 5
+  },
+  "launcher": "playground.mjs",
+  "observability": true
+}
+```
