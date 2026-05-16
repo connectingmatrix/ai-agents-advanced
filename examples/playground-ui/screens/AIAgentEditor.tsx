@@ -9,9 +9,9 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '.
 import { Switch } from '../components/ui/switch';
 import { Textarea } from '../components/ui/textarea';
 import { useNavigate, useSearchParams } from 'react-router';
-import { bindAgentWorkflow, createAgent, deleteAgentFile, listWorkflows, loadAgent, loadAgentCapabilityCatalog, rebuildAgentIngestion, updateAgent, updateAgentIngestion } from '@/dataloaders';
+import { bindAgentWorkflow, createAgent, deleteAgentFile, listWorkflows, loadAgent, loadAgentCapabilityCatalog, rebuildAgentIngestion, updateAgent, updateAgentIngestion } from '@giga/dataloader/client/legacy/dataloaders';
 import { useUiDataContext } from '../contexts/AuthSessionContext';
-import type { AgentCatalogSkill, AgentCreateInput, AgentFileShapeRecord, AgentIngestionModeInput, EntityRecord } from '@/orm';
+import type { AgentCatalogSkill, AgentCreateInput, AgentFileShapeRecord, AgentIngestionModeInput, EntityRecord } from '@giga/dataloader/client/legacy/orm';
 import { useToast } from '../components/Toast';
 import { LoadingState } from '../components/LoadingState';
 import { chatRoute } from '../data/chatRoute';

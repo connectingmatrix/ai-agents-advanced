@@ -18,10 +18,10 @@ import {
     type UiPermission,
     type UiTreeNode,
     type UiTreeResult
-} from '@/orm';
-import type { UiDataContext } from '@/dataloaders/context';
-import { assertCanPerform, loadUiPermissions } from '@/dataloaders/permissions.loader';
-import { invalidateTreeScopeCache } from '@/dataloaders/tree-scope.loader';
+} from '@giga/dataloader/client/legacy/orm';
+import type { UiDataContext } from '@giga/dataloader/client/legacy/dataloaders/context';
+import { assertCanPerform, loadUiPermissions } from '@giga/dataloader/client/legacy/dataloaders/permissions.loader';
+import { invalidateTreeScopeCache } from '@giga/dataloader/client/legacy/dataloaders/tree-scope.loader';
 
 export type TreeListPage = { first?: number | null; offset?: number | null };
 export type TreeLoaderResult = EntityListResult & { permissions: UiPermission[] };
