@@ -1,34 +1,27 @@
-# Auto-generated contracts for `@connectingmatrix/ai-agents-advanced`
+# @connectingmatrix/ai-agents-advanced — auto-generated contracts
 
-This document is generated from the final package audit. The package owns its `src/ui`, `src/backend`, `src/entity`, migrations, GraphQL/API surfaces, health/status, launcher, and tests unless this is a thin shell repo.
+    Generated from the package audit on 2026-05-15.
 
-## Public contracts
+    ## Purpose
 
-- `AdvancedAIAgents.runPlanner/runResearcher/runSoftwareBuilder/runDeployment`
-- `AdvancedAIAgents.runOutputDesigner/runMemory/runDataAnalyst`
-- `agent-name folders under src/backend/agents/<agent-name>`
-- `uses @connectingmatrix/ai-agents contracts`
+    Advanced agents derived from core AI Agent contracts, organized by agent-name folders. No workflow/tree/node designer ownership.
 
-## Package use
+    ## Public contracts
 
-```ts
-import { createPackage } from '@connectingmatrix/ai-agents-advanced';
-const pkg = createPackage();
-await pkg.health?.();
-```
+    - `AdvancedAIAgents.agents()`
+- `AdvancedAIAgents.plan/list/getObject/executePlan`
+- `AdvancedAIAgents.runAgent(agentName,input)`
+- `AdvancedAIAgents.designOutput`
+- agent folders: planner-agent, researcher-agent, software-builder-agent, deployment-agent, data-analyst-agent, image-gis-agent, memory-agent, platform-fix-agent, process-monitor-control-agent, output-designer-agent, swarm-coordinator-agent
 
-## Backend registration
+    ## Package-owned surfaces
 
-Register `pkg.routes`, merge `pkg.graphql`, run `pkg.migrations`, and keep auth/signature handling delegated to `@connectingmatrix/orm`.
+    - `src/client` owns dataloaders, browser binding and UI-facing data contracts.
+    - `src/backend` owns non-CRUD runtime processing, route handlers, health/status and launchers.
+    - `src/entity` owns entity records, CRUD repositories and entity GraphQL.
+    - `migrations` owns package database migrations.
+    - `playground.mjs` launches the package in stub/playable mode.
 
-## Frontend binding
+    ## GraphQL/middleware binding
 
-UI adapters expose `bindWithServer('/graphql')` or route-specific helpers. Domain logic remains in the owning package.
-
-## Launcher
-
-```bash
-npm run build
-npm test
-node playground.mjs
-```
+    This package exposes `createPackage()` so `@connectingmatrix/server` or `giga-ai-backend` can register package middleware, package GraphQL and package health/launcher routes.

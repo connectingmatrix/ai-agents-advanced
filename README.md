@@ -1,102 +1,35 @@
 # @connectingmatrix/ai-agents-advanced
 
-Derived advanced agents grouped by agent name. Does not own workflow/tree/node designer agents.
+Advanced AI agents derived from core AI agents with planning, research, structured output, and designer helpers.
 
-## Ownership
+This repo is intentionally split into `src/client`, `src/backend`, and `src/entity` so it can be impackage-owned by the frontend, backend, or package-owned migration runner without making `giga-ai-backend` a monorepo again.
 
-This package owns its `src/ui`, `src/backend`, `src/entity`, GraphQL bundle, migrations, health/status, launcher, and package contracts. It can be included in backend or UI without assuming a monorepo.
-
-## Public contracts
-
-- `AdvancedAIAgents.agents()`
-- `AdvancedAIAgents.plan/list/getObject/executePlan`
-- `AdvancedAIAgents.runAgent(kind, input)`
-- `AdvancedAIAgents.designOutput()`
-- `agents/planner`
-- `agents/researcher`
-- `agents/output-designer`
-- `agents/software-builder`
-- `agents/deployment`
-- `agents/memory-analyst`
-- `agents/gis-image`
-
-
-## Basic usage
-
-```ts
-import { AdvancedAIAgents } from '@connectingmatrix/ai-agents-advanced';
-const plan = AdvancedAIAgents.plan({ kind: 'researcher', objective: 'audit deployment risk' });
-await AdvancedAIAgents.executePlan(plan.id);
-```
-
-## Server usage
+## Usage
 
 ```ts
 import { createPackage } from '@connectingmatrix/ai-agents-advanced';
+
 const pkg = createPackage();
-await pkg.health?.();
-// register pkg.routes as middleware and merge pkg.graphql into /graphql
+await pkg.health();
 ```
 
-## UI usage
+## Server binding
 
-Package UI modules expose `bindWithServer('/graphql')` where applicable. Domain packages own their dataloaders; the thin UI only renders/binds.
+Each package exports a `registerWithServer(app)` helper when server routes are needed, plus a `graphql` bundle containing `typeDefs`, `resolvers`, and `migrations`.
 
-## Observability and process monitor
+## Frontend binding
 
-All packages expose `PackageObservability`. The server wires logger and sockets into every package. Logger registers package health probes and exposes `/logger/process-monitor` plus `/server/process-monitor`.
-
-## Launcher
-
-Run locally:
-
-```bash
-npm run build
-node playground.mjs
-```
-
-The launcher opens in stub mode so the package can be tested independently, similar to workflow designer stub mode.
-
-## GraphQL and routes
-
-GraphQL namespace and routes are returned by `createPackage()`. Routes include health and launcher endpoints when needed.
-
-## Exports
-
-- `.`
-- `./backend`
-- `./ui`
-- `./entity`
-- `./package.json`
-- `./package-structure`
-- `./launcher`
-- `./observability`
-- `./backend/agents`
-
-## Folder counts
-
-- `src/ui`: 5 files
-- `src/backend`: 9 files
-- `src/entity`: 4 files
-- `migrations`: 7 files
-- `tests`: 5 files
+UI loaders expose `.bindWithServer('/graphql')` so the same package can work with the current backend or a separately deployed package host.
 
 
+See `PACKAGE_STRUCTURE.md` for the role-folder source map.
 
-## Final gap closure
+## Final package audit docs
 
-See `docs/FINAL_GAP_CLOSURE_CONTRACTS.md` for the final process-monitor, project, node, workflow, and package-owned contract audit.
+This repo now includes package-local generated docs:
 
-## Final runtime contracts
+- `docs/AUTO_GENERATED_CONTRACTS.md` — all public contracts and owned surfaces.
+- `docs/USAGE.md` — backend registration, frontend binding and launcher usage.
+- `docs/OBSERVABILITY.md` — logger/process-monitor/socket wiring.
 
-See `docs/FINAL_RUNTIME_CONTRACTS.md` for the final package-owned API, routes, launcher, observability, and wiring contracts.
-
-
-## Final package contracts
-
-- `AdvancedAIAgents.runPlanner/runResearcher/runSoftwareBuilder/runDeployment`
-- `AdvancedAIAgents.runOutputDesigner/runMemory/runDataAnalyst`
-- `agent-name folders under src/backend/agents/<agent-name>`
-- `uses @connectingmatrix/ai-agents contracts`
-
-See `docs/AUTO_GENERATED_CONTRACTS.md` and `docs/OBSERVABILITY.md` for generated operational docs.
+The package remains independently playable with `npm run build`, `npm test`, and `npm run play`.

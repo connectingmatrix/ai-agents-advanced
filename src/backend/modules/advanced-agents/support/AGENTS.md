@@ -1,0 +1,452 @@
+# AGENTS.md
+
+## Directory Context
+
+- Path: `packages/apps/ai-agents/src/services/ai-agents/advanced/runtime`
+- This folder owns the production code files in this folder.
+
+## Contract
+
+- Keep all code in this folder aligned with its layer package boundary.
+- If any production code file in this folder is updated, update this AGENTS.md in the same change.
+- This AGENTS file must document each owned file purpose, input/output shape, role rules, logic gates, functions, exports, and line snippets.
+
+## File Usage Specification
+
+### `gap-analysis.ts`
+- Purpose: Defines module behavior owned by this usage folder.
+- Owning use cases: Runtime and application flows that import this file through package boundaries.
+- Input shape: Typed arguments and imported contracts declared in this file signatures.
+- Output shape: Typed return values, thrown errors, and exported contracts declared in this file.
+- Role interaction rules:
+  - `User`: Allowed through explicit service/resolver authorization and scoped data access only.
+  - `Root User`: Can execute elevated flows where caller context resolves root privileges.
+  - `Super Admin`: Can execute organization-level privileged flows where membership and role gates pass.
+- Logic gates summary:
+  - Authorization and scope checks must run before read/write side effects.
+  - Entity/ORM boundaries must remain the source of persisted data access.
+  - MCP or GraphQL proxy boundaries must avoid duplicated domain validation.
+- Functions (all):
+  - `identifyAdvancedGaps` (L12-L12, function)
+  - `gapsToTasks` (L70-L70, function)
+- Exports:
+  - `identifyAdvancedGaps` (L12)
+  - `gapsToTasks` (L70)
+- Key snippets and use-case mapping:
+  - `L12-L12`: Implements `identifyAdvancedGaps` for this module use case.
+  - `L70-L70`: Implements `gapsToTasks` for this module use case.
+### `gis-world-service.ts`
+- Purpose: Defines module behavior owned by this usage folder.
+- Owning use cases: Runtime and application flows that import this file through package boundaries.
+- Input shape: Typed arguments and imported contracts declared in this file signatures.
+- Output shape: Typed return values, thrown errors, and exported contracts declared in this file.
+- Role interaction rules:
+  - `User`: Allowed through explicit service/resolver authorization and scoped data access only.
+  - `Root User`: Can execute elevated flows where caller context resolves root privileges.
+  - `Super Admin`: Can execute organization-level privileged flows where membership and role gates pass.
+- Logic gates summary:
+  - Authorization and scope checks must run before read/write side effects.
+  - Entity/ORM boundaries must remain the source of persisted data access.
+  - MCP or GraphQL proxy boundaries must avoid duplicated domain validation.
+- Functions (all):
+  - `text` (L4-L4, arrow)
+  - `number` (L5-L5, arrow)
+  - `normalizeCountryName` (L19-L19, function)
+  - `createWorldGisSpec` (L25-L25, function)
+  - `createCoordinatePlotSpec` (L68-L68, function)
+  - `createGisOperationPlan` (L72-L72, function)
+  - `haversineKm` (L91-L91, function)
+  - `toRad` (L93-L93, arrow)
+  - `bboxFromCoordinates` (L102-L102, function)
+- Exports:
+  - `normalizeCountryName` (L19)
+  - `createWorldGisSpec` (L25)
+  - `createCoordinatePlotSpec` (L68)
+  - `createGisOperationPlan` (L72)
+  - `haversineKm` (L91)
+  - `bboxFromCoordinates` (L102)
+- Key snippets and use-case mapping:
+  - `L4-L4`: Implements `text` for this module use case.
+  - `L5-L5`: Implements `number` for this module use case.
+  - `L19-L19`: Implements `normalizeCountryName` for this module use case.
+  - `L25-L25`: Implements `createWorldGisSpec` for this module use case.
+  - `L68-L68`: Implements `createCoordinatePlotSpec` for this module use case.
+  - `L72-L72`: Implements `createGisOperationPlan` for this module use case.
+  - `L91-L91`: Implements `haversineKm` for this module use case.
+  - `L93-L93`: Implements `toRad` for this module use case.
+  - `L102-L102`: Implements `bboxFromCoordinates` for this module use case.
+### `image-operations-v2.ts`
+- Purpose: Defines module behavior owned by this usage folder.
+- Owning use cases: Runtime and application flows that import this file through package boundaries.
+- Input shape: Typed arguments and imported contracts declared in this file signatures.
+- Output shape: Typed return values, thrown errors, and exported contracts declared in this file.
+- Role interaction rules:
+  - `User`: Allowed through explicit service/resolver authorization and scoped data access only.
+  - `Root User`: Can execute elevated flows where caller context resolves root privileges.
+  - `Super Admin`: Can execute organization-level privileged flows where membership and role gates pass.
+- Logic gates summary:
+  - Authorization and scope checks must run before read/write side effects.
+  - Entity/ORM boundaries must remain the source of persisted data access.
+  - MCP or GraphQL proxy boundaries must avoid duplicated domain validation.
+- Functions (all):
+  - `text` (L4-L4, arrow)
+  - `createImageOperationSpec` (L6-L6, function)
+  - `createSpriteSheetSpec` (L34-L34, function)
+- Exports:
+  - `createImageOperationSpec` (L6)
+  - `createSpriteSheetSpec` (L34)
+- Key snippets and use-case mapping:
+  - `L4-L4`: Implements `text` for this module use case.
+  - `L6-L6`: Implements `createImageOperationSpec` for this module use case.
+  - `L34-L34`: Implements `createSpriteSheetSpec` for this module use case.
+### `local-runner-v2.ts`
+- Purpose: Defines module behavior owned by this usage folder.
+- Owning use cases: Runtime and application flows that import this file through package boundaries.
+- Input shape: Typed arguments and imported contracts declared in this file signatures.
+- Output shape: Typed return values, thrown errors, and exported contracts declared in this file.
+- Role interaction rules:
+  - `User`: Allowed through explicit service/resolver authorization and scoped data access only.
+  - `Root User`: Can execute elevated flows where caller context resolves root privileges.
+  - `Super Admin`: Can execute organization-level privileged flows where membership and role gates pass.
+- Logic gates summary:
+  - Authorization and scope checks must run before read/write side effects.
+  - Entity/ORM boundaries must remain the source of persisted data access.
+  - MCP or GraphQL proxy boundaries must avoid duplicated domain validation.
+- Functions (all):
+  - `pairLocalRunner` (L10-L10, function)
+  - `heartbeatLocalRunner` (L31-L31, function)
+  - `queueLocalRunnerJob` (L41-L41, function)
+- Exports:
+  - `pairLocalRunner` (L10)
+  - `heartbeatLocalRunner` (L31)
+  - `queueLocalRunnerJob` (L41)
+- Key snippets and use-case mapping:
+  - `L10-L10`: Implements `pairLocalRunner` for this module use case.
+  - `L31-L31`: Implements `heartbeatLocalRunner` for this module use case.
+  - `L41-L41`: Implements `queueLocalRunnerJob` for this module use case.
+### `memory-v2.ts`
+- Purpose: Defines module behavior owned by this usage folder.
+- Owning use cases: Runtime and application flows that import this file through package boundaries.
+- Input shape: Typed arguments and imported contracts declared in this file signatures.
+- Output shape: Typed return values, thrown errors, and exported contracts declared in this file.
+- Role interaction rules:
+  - `User`: Allowed through explicit service/resolver authorization and scoped data access only.
+  - `Root User`: Can execute elevated flows where caller context resolves root privileges.
+  - `Super Admin`: Can execute organization-level privileged flows where membership and role gates pass.
+- Logic gates summary:
+  - Authorization and scope checks must run before read/write side effects.
+  - Entity/ORM boundaries must remain the source of persisted data access.
+  - MCP or GraphQL proxy boundaries must avoid duplicated domain validation.
+- Functions (all):
+  - `memoryNamespace` (L11-L11, arrow)
+  - `writeAgentMemory` (L15-L15, function)
+  - `recordAgentFeedback` (L40-L40, function)
+  - `searchAgentMemory` (L60-L60, function)
+  - `buildAgentMemoryPreamble` (L76-L76, function)
+- Exports:
+  - `writeAgentMemory` (L15)
+  - `recordAgentFeedback` (L40)
+  - `searchAgentMemory` (L60)
+  - `buildAgentMemoryPreamble` (L76)
+- Key snippets and use-case mapping:
+  - `L11-L11`: Implements `memoryNamespace` for this module use case.
+  - `L15-L15`: Implements `writeAgentMemory` for this module use case.
+  - `L40-L40`: Implements `recordAgentFeedback` for this module use case.
+  - `L60-L60`: Implements `searchAgentMemory` for this module use case.
+  - `L76-L76`: Implements `buildAgentMemoryPreamble` for this module use case.
+### `output-protocol.ts`
+- Purpose: Defines module behavior owned by this usage folder.
+- Owning use cases: Runtime and application flows that import this file through package boundaries.
+- Input shape: Typed arguments and imported contracts declared in this file signatures.
+- Output shape: Typed return values, thrown errors, and exported contracts declared in this file.
+- Role interaction rules:
+  - `User`: Allowed through explicit service/resolver authorization and scoped data access only.
+  - `Root User`: Can execute elevated flows where caller context resolves root privileges.
+  - `Super Admin`: Can execute organization-level privileged flows where membership and role gates pass.
+- Logic gates summary:
+  - Authorization and scope checks must run before read/write side effects.
+  - Entity/ORM boundaries must remain the source of persisted data access.
+  - MCP or GraphQL proxy boundaries must avoid duplicated domain validation.
+- Functions (all):
+  - `renderOutputBlocks` (L24-L24, function)
+- Exports:
+  - `renderOutputBlocks` (L24)
+- Key snippets and use-case mapping:
+  - `L24-L24`: Implements `renderOutputBlocks` for this module use case.
+### `platform-fix-v2.ts`
+- Purpose: Defines module behavior owned by this usage folder.
+- Owning use cases: Runtime and application flows that import this file through package boundaries.
+- Input shape: Typed arguments and imported contracts declared in this file signatures.
+- Output shape: Typed return values, thrown errors, and exported contracts declared in this file.
+- Role interaction rules:
+  - `User`: Allowed through explicit service/resolver authorization and scoped data access only.
+  - `Root User`: Can execute elevated flows where caller context resolves root privileges.
+  - `Super Admin`: Can execute organization-level privileged flows where membership and role gates pass.
+- Logic gates summary:
+  - Authorization and scope checks must run before read/write side effects.
+  - Entity/ORM boundaries must remain the source of persisted data access.
+  - MCP or GraphQL proxy boundaries must avoid duplicated domain validation.
+- Functions (all):
+  - `text` (L4-L4, arrow)
+  - `createPlatformFixPlan` (L6-L6, function)
+- Exports:
+  - `createPlatformFixPlan` (L6)
+- Key snippets and use-case mapping:
+  - `L4-L4`: Implements `text` for this module use case.
+  - `L6-L6`: Implements `createPlatformFixPlan` for this module use case.
+### `software-branding.ts`
+- Purpose: Defines module behavior owned by this usage folder.
+- Owning use cases: Runtime and application flows that import this file through package boundaries.
+- Input shape: Typed arguments and imported contracts declared in this file signatures.
+- Output shape: Typed return values, thrown errors, and exported contracts declared in this file.
+- Role interaction rules:
+  - `User`: Allowed through explicit service/resolver authorization and scoped data access only.
+  - `Root User`: Can execute elevated flows where caller context resolves root privileges.
+  - `Super Admin`: Can execute organization-level privileged flows where membership and role gates pass.
+- Logic gates summary:
+  - Authorization and scope checks must run before read/write side effects.
+  - Entity/ORM boundaries must remain the source of persisted data access.
+  - MCP or GraphQL proxy boundaries must avoid duplicated domain validation.
+- Functions (all):
+  - None detected by static scan.
+- Exports:
+  - None
+- Key snippets and use-case mapping:
+  - `L1-L9`: File-level constants/types behavior.
+### `software-deployment.ts`
+- Purpose: Defines module behavior owned by this usage folder.
+- Owning use cases: Runtime and application flows that import this file through package boundaries.
+- Input shape: Typed arguments and imported contracts declared in this file signatures.
+- Output shape: Typed return values, thrown errors, and exported contracts declared in this file.
+- Role interaction rules:
+  - `User`: Allowed through explicit service/resolver authorization and scoped data access only.
+  - `Root User`: Can execute elevated flows where caller context resolves root privileges.
+  - `Super Admin`: Can execute organization-level privileged flows where membership and role gates pass.
+- Logic gates summary:
+  - Authorization and scope checks must run before read/write side effects.
+  - Entity/ORM boundaries must remain the source of persisted data access.
+  - MCP or GraphQL proxy boundaries must avoid duplicated domain validation.
+- Functions (all):
+  - `createAdvancedSoftwareDeployment` (L22-L22, function)
+- Exports:
+  - `createAdvancedSoftwareDeployment` (L22)
+- Key snippets and use-case mapping:
+  - `L22-L22`: Implements `createAdvancedSoftwareDeployment` for this module use case.
+### `software-detection.ts`
+- Purpose: Defines module behavior owned by this usage folder.
+- Owning use cases: Runtime and application flows that import this file through package boundaries.
+- Input shape: Typed arguments and imported contracts declared in this file signatures.
+- Output shape: Typed return values, thrown errors, and exported contracts declared in this file.
+- Role interaction rules:
+  - `User`: Allowed through explicit service/resolver authorization and scoped data access only.
+  - `Root User`: Can execute elevated flows where caller context resolves root privileges.
+  - `Super Admin`: Can execute organization-level privileged flows where membership and role gates pass.
+- Logic gates summary:
+  - Authorization and scope checks must run before read/write side effects.
+  - Entity/ORM boundaries must remain the source of persisted data access.
+  - MCP or GraphQL proxy boundaries must avoid duplicated domain validation.
+- Functions (all):
+  - None detected by static scan.
+- Exports:
+  - None
+- Key snippets and use-case mapping:
+  - `L1-L35`: File-level constants/types behavior.
+### `software-project.ts`
+- Purpose: Defines module behavior owned by this usage folder.
+- Owning use cases: Runtime and application flows that import this file through package boundaries.
+- Input shape: Typed arguments and imported contracts declared in this file signatures.
+- Output shape: Typed return values, thrown errors, and exported contracts declared in this file.
+- Role interaction rules:
+  - `User`: Allowed through explicit service/resolver authorization and scoped data access only.
+  - `Root User`: Can execute elevated flows where caller context resolves root privileges.
+  - `Super Admin`: Can execute organization-level privileged flows where membership and role gates pass.
+- Logic gates summary:
+  - Authorization and scope checks must run before read/write side effects.
+  - Entity/ORM boundaries must remain the source of persisted data access.
+  - MCP or GraphQL proxy boundaries must avoid duplicated domain validation.
+- Functions (all):
+  - `createAdvancedSoftwareProject` (L9-L9, function)
+  - `queueAdvancedSoftwareRun` (L46-L46, function)
+- Exports:
+  - `createAdvancedSoftwareProject` (L9)
+  - `queueAdvancedSoftwareRun` (L46)
+- Key snippets and use-case mapping:
+  - `L9-L9`: Implements `createAdvancedSoftwareProject` for this module use case.
+  - `L46-L46`: Implements `queueAdvancedSoftwareRun` for this module use case.
+### `software-quality.ts`
+- Purpose: Defines module behavior owned by this usage folder.
+- Owning use cases: Runtime and application flows that import this file through package boundaries.
+- Input shape: Typed arguments and imported contracts declared in this file signatures.
+- Output shape: Typed return values, thrown errors, and exported contracts declared in this file.
+- Role interaction rules:
+  - `User`: Allowed through explicit service/resolver authorization and scoped data access only.
+  - `Root User`: Can execute elevated flows where caller context resolves root privileges.
+  - `Super Admin`: Can execute organization-level privileged flows where membership and role gates pass.
+- Logic gates summary:
+  - Authorization and scope checks must run before read/write side effects.
+  - Entity/ORM boundaries must remain the source of persisted data access.
+  - MCP or GraphQL proxy boundaries must avoid duplicated domain validation.
+- Functions (all):
+  - `scoreAdvancedSoftwareSystem` (L30-L30, function)
+- Exports:
+  - `scoreAdvancedSoftwareSystem` (L30)
+- Key snippets and use-case mapping:
+  - `L30-L30`: Implements `scoreAdvancedSoftwareSystem` for this module use case.
+### `software-system-builder.ts`
+- Purpose: Defines module behavior owned by this usage folder.
+- Owning use cases: Runtime and application flows that import this file through package boundaries.
+- Input shape: Typed arguments and imported contracts declared in this file signatures.
+- Output shape: Typed return values, thrown errors, and exported contracts declared in this file.
+- Role interaction rules:
+  - `User`: Allowed through explicit service/resolver authorization and scoped data access only.
+  - `Root User`: Can execute elevated flows where caller context resolves root privileges.
+  - `Super Admin`: Can execute organization-level privileged flows where membership and role gates pass.
+- Logic gates summary:
+  - Authorization and scope checks must run before read/write side effects.
+  - Entity/ORM boundaries must remain the source of persisted data access.
+  - MCP or GraphQL proxy boundaries must avoid duplicated domain validation.
+- Functions (all):
+  - `generateAdvancedSoftwareSystem` (L12-L12, function)
+- Exports:
+  - `generateAdvancedSoftwareSystem` (L12)
+  - `createAdvancedSoftwareProject` (L67)
+  - `queueAdvancedSoftwareRun` (L67)
+  - `createAdvancedSoftwareDeployment` (L68)
+- Key snippets and use-case mapping:
+  - `L12-L12`: Implements `generateAdvancedSoftwareSystem` for this module use case.
+### `swarm-roles.ts`
+- Purpose: Defines module behavior owned by this usage folder.
+- Owning use cases: Runtime and application flows that import this file through package boundaries.
+- Input shape: Typed arguments and imported contracts declared in this file signatures.
+- Output shape: Typed return values, thrown errors, and exported contracts declared in this file.
+- Role interaction rules:
+  - `User`: Allowed through explicit service/resolver authorization and scoped data access only.
+  - `Root User`: Can execute elevated flows where caller context resolves root privileges.
+  - `Super Admin`: Can execute organization-level privileged flows where membership and role gates pass.
+- Logic gates summary:
+  - Authorization and scope checks must run before read/write side effects.
+  - Entity/ORM boundaries must remain the source of persisted data access.
+  - MCP or GraphQL proxy boundaries must avoid duplicated domain validation.
+- Functions (all):
+  - `softwareProcessPrompt` (L21-L21, arrow)
+  - `swarmWorkerMetadata` (L38-L38, arrow)
+- Exports:
+  - `swarmWorkerMetadata` (L38)
+- Key snippets and use-case mapping:
+  - `L21-L21`: Implements `softwareProcessPrompt` for this module use case.
+  - `L38-L38`: Implements `swarmWorkerMetadata` for this module use case.
+### `swarm-v2.ts`
+- Purpose: Defines module behavior owned by this usage folder.
+- Owning use cases: Runtime and application flows that import this file through package boundaries.
+- Input shape: Typed arguments and imported contracts declared in this file signatures.
+- Output shape: Typed return values, thrown errors, and exported contracts declared in this file.
+- Role interaction rules:
+  - `User`: Allowed through explicit service/resolver authorization and scoped data access only.
+  - `Root User`: Can execute elevated flows where caller context resolves root privileges.
+  - `Super Admin`: Can execute organization-level privileged flows where membership and role gates pass.
+- Logic gates summary:
+  - Authorization and scope checks must run before read/write side effects.
+  - Entity/ORM boundaries must remain the source of persisted data access.
+  - MCP or GraphQL proxy boundaries must avoid duplicated domain validation.
+- Functions (all):
+  - `planAdvancedSwarm` (L13-L13, function)
+  - `launchAdvancedSwarm` (L34-L34, function)
+  - `collectAdvancedSwarm` (L90-L90, function)
+- Exports:
+  - `planAdvancedSwarm` (L13)
+  - `launchAdvancedSwarm` (L34)
+  - `collectAdvancedSwarm` (L90)
+- Key snippets and use-case mapping:
+  - `L13-L13`: Implements `planAdvancedSwarm` for this module use case.
+  - `L34-L34`: Implements `launchAdvancedSwarm` for this module use case.
+  - `L90-L90`: Implements `collectAdvancedSwarm` for this module use case.
+### `task-graph.ts`
+- Purpose: Defines module behavior owned by this usage folder.
+- Owning use cases: Runtime and application flows that import this file through package boundaries.
+- Input shape: Typed arguments and imported contracts declared in this file signatures.
+- Output shape: Typed return values, thrown errors, and exported contracts declared in this file.
+- Role interaction rules:
+  - `User`: Allowed through explicit service/resolver authorization and scoped data access only.
+  - `Root User`: Can execute elevated flows where caller context resolves root privileges.
+  - `Super Admin`: Can execute organization-level privileged flows where membership and role gates pass.
+- Logic gates summary:
+  - Authorization and scope checks must run before read/write side effects.
+  - Entity/ORM boundaries must remain the source of persisted data access.
+  - MCP or GraphQL proxy boundaries must avoid duplicated domain validation.
+- Functions (all):
+  - `text` (L5-L5, arrow)
+  - `words` (L6-L6, arrow)
+  - `task` (L12-L12, function)
+  - `createAgentTaskGraph` (L16-L16, function)
+  - `add` (L21-L21, arrow)
+  - `updateTaskStatus` (L111-L111, function)
+- Exports:
+  - `createAgentTaskGraph` (L16)
+  - `updateTaskStatus` (L111)
+- Key snippets and use-case mapping:
+  - `L5-L5`: Implements `text` for this module use case.
+  - `L6-L6`: Implements `words` for this module use case.
+  - `L12-L12`: Implements `task` for this module use case.
+  - `L16-L16`: Implements `createAgentTaskGraph` for this module use case.
+  - `L21-L21`: Implements `add` for this module use case.
+  - `L111-L111`: Implements `updateTaskStatus` for this module use case.
+### `workflow-control.ts`
+- Purpose: Defines module behavior owned by this usage folder.
+- Owning use cases: Runtime and application flows that import this file through package boundaries.
+- Input shape: Typed arguments and imported contracts declared in this file signatures.
+- Output shape: Typed return values, thrown errors, and exported contracts declared in this file.
+- Role interaction rules:
+  - `User`: Allowed through explicit service/resolver authorization and scoped data access only.
+  - `Root User`: Can execute elevated flows where caller context resolves root privileges.
+  - `Super Admin`: Can execute organization-level privileged flows where membership and role gates pass.
+- Logic gates summary:
+  - Authorization and scope checks must run before read/write side effects.
+  - Entity/ORM boundaries must remain the source of persisted data access.
+  - MCP or GraphQL proxy boundaries must avoid duplicated domain validation.
+- Functions (all):
+  - `workflowOperation` (L20-L20, arrow)
+  - `runningSnapshot` (L26-L26, arrow)
+  - `nodeOperation` (L37-L37, arrow)
+  - `resolveWorkflowReference` (L50-L50, arrow)
+  - `executeWorkflowControlOperation` (L62-L62, function)
+- Exports:
+  - `executeWorkflowControlOperation` (L62)
+- Key snippets and use-case mapping:
+  - `L20-L20`: Implements `workflowOperation` for this module use case.
+  - `L26-L26`: Implements `runningSnapshot` for this module use case.
+  - `L37-L37`: Implements `nodeOperation` for this module use case.
+  - `L50-L50`: Implements `resolveWorkflowReference` for this module use case.
+  - `L62-L62`: Implements `executeWorkflowControlOperation` for this module use case.
+
+## Non-Negotiable Coding Standards
+
+- Never ever write supabase.from we have entities always load data through it
+- Do not use `supabase.from` or `input.from` directly. Load data through entities and the ORM.
+- Do not add autofills
+- Do not add placeholder, do not add normalisation.
+- Find and fix the root cause instead of adding the fallback.
+- Do not add fallbacks. Fix the logic.
+- Everything should be typed dont use unknown, never, any
+- Do not use JS-style safe/coercion helper functions.
+- Do not use `to*` functions like `toPayload`.
+- Do not create map functions.
+- Do not check types like `type === Array` or `type === string`.
+- Use the `||` operator for comparison.
+- Do not write a code file bigger than 70-100 lines.
+- Try to generalise multiple lines of code into fewer lines.
+- After writing code, recheck patterns across the workspace to remove duplications.
+- Do not invent functionality. Ask the user if it already exists somewhere.
+- Prefer the smallest correct change over broad refactors.
+- Preserve the repo's existing style, structure, and package manager.
+- Avoid destructive git commands unless explicitly requested.
+- Keep memory entries concise, factual, and tied to the files or behavior that changed.
+- Entity table name should come from the Entity and not direct usage.
+- Function naming should be .create, .delete .find .update .find .findBy .deleteBy
+- Disallowed naming conventions are createRows, listRows and any programatic name for the entity.
+- Importing supabase in the entities is disallowed. Upgrade the ORM file is something is not supported by entity. Orm is present at @gigav2/orm
+- If Create, Update, Delete, Find is unable to do any thing stop the coding and inform the user of your updates first.
+- Do not create proxy or additional functions for create, update, delete
+- Keep ORM generic do not add Entity functions in the ORM
+- MCP.ts will execute inner graphql for the operations they will not implement any
+- JSON is disallowed in the Graphql Schema use proper types only
+- Dont use zod for typing

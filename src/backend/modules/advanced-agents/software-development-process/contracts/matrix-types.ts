@@ -1,0 +1,81 @@
+export type SoftwareFeaturePattern = { patternId: string; feature: string; components: string[]; backendPieces: string[]; tests: string[] };
+export type SoftwareRouteRbacEntry = {
+  route: string;
+  screenName: string;
+  access: 'public' | 'protected';
+  allowedRoles: string[];
+  deniedRoles: string[];
+  authRequired: boolean;
+  backendPermission: string;
+  frontendGuard: string;
+  backendGuard: string;
+  redirectBehavior: string;
+  unauthorizedUi: string;
+  navigationVisibility: string;
+  tests: string[];
+};
+export type SoftwareBackendAction = 'list' | 'create' | 'update' | 'delete' | 'login' | 'current-user' | 'protected-route' | 'admin-only' | 'offline';
+export type SoftwareCrudEntry = {
+  entity: string;
+  route: string;
+  tableComponent: string;
+  formComponent: string;
+  deleteComponent: string;
+  operations: Array<{ name: string; method: string; endpoint: string; permission: string }>;
+  states: string[];
+  tests: string[];
+};
+export type SoftwareBackendContract = {
+  operation: string;
+  entity: string;
+  action: SoftwareBackendAction;
+  endpoint: string;
+  method: string;
+  purpose: string;
+  authRequired: boolean;
+  roles: string[];
+  permissions: string[];
+  request: string[];
+  response: string[];
+  errors: string[];
+  tests: string[];
+};
+export type SoftwareScreenState = {
+  screen: string;
+  route: string;
+  dataSource: string;
+  states: string[];
+  feedback: string[];
+  tests: string[];
+};
+export type SoftwareTestCoverage = {
+  feature: string;
+  frontend: string[];
+  backend: string[];
+  integration: string[];
+  rbac: string[];
+  status: 'required' | 'planned' | 'passed';
+};
+export type SoftwareValueScore = {
+  functionalCompleteness: number;
+  backendWiring: number;
+  uiKitCompliance: number;
+  rbacAuthCorrectness: number;
+  stateCoverage: number;
+  testingVerification: number;
+  maintainabilityDocs: number;
+  total: number;
+  capsApplied: string[];
+  verdict: 'complete' | 'partial' | 'failed';
+};
+export type SoftwareProcessMatrices = {
+  featurePatternMatrix: SoftwareFeaturePattern[];
+  routeAuthRbacMatrix: SoftwareRouteRbacEntry[];
+  crudOperationMatrix: SoftwareCrudEntry[];
+  backendContractMatrix: SoftwareBackendContract[];
+  screenStateMatrix: SoftwareScreenState[];
+  testCoverageMatrix: SoftwareTestCoverage[];
+  valueScore: SoftwareValueScore;
+  definitionOfDone: { items: Array<{ id: string; passed: boolean; evidence: string }>; passed: boolean };
+  requirementCompletionChecklist: Array<{ requirement: string; status: 'planned' | 'complete'; evidence: string }>;
+};

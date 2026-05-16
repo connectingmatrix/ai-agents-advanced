@@ -1,0 +1,225 @@
+# AGENTS.md
+
+## Directory Context
+
+- Path: `packages/apps/ai-agents/src/services/ai-agents/advanced/software-renderers/runtime`
+- This folder owns the production code files in this folder.
+
+## Contract
+
+- Keep all code in this folder aligned with its layer package boundary.
+- If any production code file in this folder is updated, update this AGENTS.md in the same change.
+- This AGENTS file must document each owned file purpose, input/output shape, role rules, logic gates, functions, exports, and line snippets.
+
+## File Usage Specification
+
+### `static-app-charts.ts`
+- Purpose: Defines module behavior owned by this usage folder.
+- Owning use cases: Runtime and application flows that import this file through package boundaries.
+- Input shape: Typed arguments and imported contracts declared in this file signatures.
+- Output shape: Typed return values, thrown errors, and exported contracts declared in this file.
+- Role interaction rules:
+  - `User`: Allowed through explicit service/resolver authorization and scoped data access only.
+  - `Root User`: Can execute elevated flows where caller context resolves root privileges.
+  - `Super Admin`: Can execute organization-level privileged flows where membership and role gates pass.
+- Logic gates summary:
+  - Authorization and scope checks must run before read/write side effects.
+  - Entity/ORM boundaries must remain the source of persisted data access.
+  - MCP or GraphQL proxy boundaries must avoid duplicated domain validation.
+- Functions (all):
+  - `sparklineSvg` (L1-L1, arrow)
+  - `donutSvg` (L10-L10, arrow)
+  - `barRowsSvg` (L15-L15, arrow)
+- Exports:
+  - `sparklineSvg` (L1)
+  - `donutSvg` (L10)
+  - `barRowsSvg` (L15)
+- Key snippets and use-case mapping:
+  - `L1-L1`: Implements `sparklineSvg` for this module use case.
+  - `L10-L10`: Implements `donutSvg` for this module use case.
+  - `L15-L15`: Implements `barRowsSvg` for this module use case.
+### `static-app-crud.ts`
+- Purpose: Defines module behavior owned by this usage folder.
+- Owning use cases: Runtime and application flows that import this file through package boundaries.
+- Input shape: Typed arguments and imported contracts declared in this file signatures.
+- Output shape: Typed return values, thrown errors, and exported contracts declared in this file.
+- Role interaction rules:
+  - `User`: Allowed through explicit service/resolver authorization and scoped data access only.
+  - `Root User`: Can execute elevated flows where caller context resolves root privileges.
+  - `Super Admin`: Can execute organization-level privileged flows where membership and role gates pass.
+- Logic gates summary:
+  - Authorization and scope checks must run before read/write side effects.
+  - Entity/ORM boundaries must remain the source of persisted data access.
+  - MCP or GraphQL proxy boundaries must avoid duplicated domain validation.
+- Functions (all):
+  - `label` (L3-L3, arrow)
+  - `screenId` (L4-L4, arrow)
+  - `formFields` (L9-L9, arrow)
+  - `rowsHtml` (L19-L19, arrow)
+  - `crudScreensHtml` (L33-L33, arrow)
+  - `crudNavHtml` (L57-L57, arrow)
+- Exports:
+  - `crudScreensHtml` (L33)
+  - `crudNavHtml` (L57)
+- Key snippets and use-case mapping:
+  - `L3-L3`: Implements `label` for this module use case.
+  - `L4-L4`: Implements `screenId` for this module use case.
+  - `L9-L9`: Implements `formFields` for this module use case.
+  - `L19-L19`: Implements `rowsHtml` for this module use case.
+  - `L33-L33`: Implements `crudScreensHtml` for this module use case.
+  - `L57-L57`: Implements `crudNavHtml` for this module use case.
+### `static-app-css.ts`
+- Purpose: Defines module behavior owned by this usage folder.
+- Owning use cases: Runtime and application flows that import this file through package boundaries.
+- Input shape: Typed arguments and imported contracts declared in this file signatures.
+- Output shape: Typed return values, thrown errors, and exported contracts declared in this file.
+- Role interaction rules:
+  - `User`: Allowed through explicit service/resolver authorization and scoped data access only.
+  - `Root User`: Can execute elevated flows where caller context resolves root privileges.
+  - `Super Admin`: Can execute organization-level privileged flows where membership and role gates pass.
+- Logic gates summary:
+  - Authorization and scope checks must run before read/write side effects.
+  - Entity/ORM boundaries must remain the source of persisted data access.
+  - MCP or GraphQL proxy boundaries must avoid duplicated domain validation.
+- Functions (all):
+  - None detected by static scan.
+- Exports:
+  - None
+- Key snippets and use-case mapping:
+  - `L1-L14`: File-level constants/types behavior.
+### `static-app-dashboard.ts`
+- Purpose: Defines module behavior owned by this usage folder.
+- Owning use cases: Runtime and application flows that import this file through package boundaries.
+- Input shape: Typed arguments and imported contracts declared in this file signatures.
+- Output shape: Typed return values, thrown errors, and exported contracts declared in this file.
+- Role interaction rules:
+  - `User`: Allowed through explicit service/resolver authorization and scoped data access only.
+  - `Root User`: Can execute elevated flows where caller context resolves root privileges.
+  - `Super Admin`: Can execute organization-level privileged flows where membership and role gates pass.
+- Logic gates summary:
+  - Authorization and scope checks must run before read/write side effects.
+  - Entity/ORM boundaries must remain the source of persisted data access.
+  - MCP or GraphQL proxy boundaries must avoid duplicated domain validation.
+- Functions (all):
+  - `metricHtml` (L4-L4, arrow)
+  - `recordHtml` (L13-L13, arrow)
+  - `workflowHtml` (L17-L17, arrow)
+  - `agentHtml` (L21-L21, arrow)
+  - `dashboardScreenHtml` (L27-L27, arrow)
+- Exports:
+  - `dashboardScreenHtml` (L27)
+- Key snippets and use-case mapping:
+  - `L4-L4`: Implements `metricHtml` for this module use case.
+  - `L13-L13`: Implements `recordHtml` for this module use case.
+  - `L17-L17`: Implements `workflowHtml` for this module use case.
+  - `L21-L21`: Implements `agentHtml` for this module use case.
+  - `L27-L27`: Implements `dashboardScreenHtml` for this module use case.
+### `static-app-reports.ts`
+- Purpose: Defines module behavior owned by this usage folder.
+- Owning use cases: Runtime and application flows that import this file through package boundaries.
+- Input shape: Typed arguments and imported contracts declared in this file signatures.
+- Output shape: Typed return values, thrown errors, and exported contracts declared in this file.
+- Role interaction rules:
+  - `User`: Allowed through explicit service/resolver authorization and scoped data access only.
+  - `Root User`: Can execute elevated flows where caller context resolves root privileges.
+  - `Super Admin`: Can execute organization-level privileged flows where membership and role gates pass.
+- Logic gates summary:
+  - Authorization and scope checks must run before read/write side effects.
+  - Entity/ORM boundaries must remain the source of persisted data access.
+  - MCP or GraphQL proxy boundaries must avoid duplicated domain validation.
+- Functions (all):
+  - `chartCard` (L4-L4, arrow)
+  - `reportsScreenHtml` (L9-L9, arrow)
+  - `settingsScreenHtml` (L19-L19, arrow)
+- Exports:
+  - `reportsScreenHtml` (L9)
+  - `settingsScreenHtml` (L19)
+- Key snippets and use-case mapping:
+  - `L4-L4`: Implements `chartCard` for this module use case.
+  - `L9-L9`: Implements `reportsScreenHtml` for this module use case.
+  - `L19-L19`: Implements `settingsScreenHtml` for this module use case.
+### `static-app-script.ts`
+- Purpose: Defines module behavior owned by this usage folder.
+- Owning use cases: Runtime and application flows that import this file through package boundaries.
+- Input shape: Typed arguments and imported contracts declared in this file signatures.
+- Output shape: Typed return values, thrown errors, and exported contracts declared in this file.
+- Role interaction rules:
+  - `User`: Allowed through explicit service/resolver authorization and scoped data access only.
+  - `Root User`: Can execute elevated flows where caller context resolves root privileges.
+  - `Super Admin`: Can execute organization-level privileged flows where membership and role gates pass.
+- Logic gates summary:
+  - Authorization and scope checks must run before read/write side effects.
+  - Entity/ORM boundaries must remain the source of persisted data access.
+  - MCP or GraphQL proxy boundaries must avoid duplicated domain validation.
+- Functions (all):
+  - `escapeHtml` (L19-L19, arrow)
+  - `showToast` (L20-L20, arrow)
+  - `api` (L21-L21, arrow)
+  - `rowHtml` (L22-L22, arrow)
+  - `renderRows` (L23-L23, arrow)
+  - `formFields` (L24-L24, arrow)
+  - `submitCrud` (L25-L25, arrow)
+  - `show` (L26-L26, arrow)
+- Exports:
+  - None
+- Key snippets and use-case mapping:
+  - `L19-L19`: Implements `escapeHtml` for this module use case.
+  - `L20-L20`: Implements `showToast` for this module use case.
+  - `L21-L21`: Implements `api` for this module use case.
+  - `L22-L22`: Implements `rowHtml` for this module use case.
+  - `L23-L23`: Implements `renderRows` for this module use case.
+  - `L24-L24`: Implements `formFields` for this module use case.
+  - `L25-L25`: Implements `submitCrud` for this module use case.
+  - `L26-L26`: Implements `show` for this module use case.
+### `static-html.ts`
+- Purpose: Defines module behavior owned by this usage folder.
+- Owning use cases: Runtime and application flows that import this file through package boundaries.
+- Input shape: Typed arguments and imported contracts declared in this file signatures.
+- Output shape: Typed return values, thrown errors, and exported contracts declared in this file.
+- Role interaction rules:
+  - `User`: Allowed through explicit service/resolver authorization and scoped data access only.
+  - `Root User`: Can execute elevated flows where caller context resolves root privileges.
+  - `Super Admin`: Can execute organization-level privileged flows where membership and role gates pass.
+- Logic gates summary:
+  - Authorization and scope checks must run before read/write side effects.
+  - Entity/ORM boundaries must remain the source of persisted data access.
+  - MCP or GraphQL proxy boundaries must avoid duplicated domain validation.
+- Functions (all):
+  - `navHtml` (L10-L10, arrow)
+- Exports:
+  - None
+- Key snippets and use-case mapping:
+  - `L10-L10`: Implements `navHtml` for this module use case.
+
+## Non-Negotiable Coding Standards
+
+- Never ever write supabase.from we have entities always load data through it
+- Do not use `supabase.from` or `input.from` directly. Load data through entities and the ORM.
+- Do not add autofills
+- Do not add placeholder, do not add normalisation.
+- Find and fix the root cause instead of adding the fallback.
+- Do not add fallbacks. Fix the logic.
+- Everything should be typed dont use unknown, never, any
+- Do not use JS-style safe/coercion helper functions.
+- Do not use `to*` functions like `toPayload`.
+- Do not create map functions.
+- Do not check types like `type === Array` or `type === string`.
+- Use the `||` operator for comparison.
+- Do not write a code file bigger than 70-100 lines.
+- Try to generalise multiple lines of code into fewer lines.
+- After writing code, recheck patterns across the workspace to remove duplications.
+- Do not invent functionality. Ask the user if it already exists somewhere.
+- Prefer the smallest correct change over broad refactors.
+- Preserve the repo's existing style, structure, and package manager.
+- Avoid destructive git commands unless explicitly requested.
+- Keep memory entries concise, factual, and tied to the files or behavior that changed.
+- Entity table name should come from the Entity and not direct usage.
+- Function naming should be .create, .delete .find .update .find .findBy .deleteBy
+- Disallowed naming conventions are createRows, listRows and any programatic name for the entity.
+- Importing supabase in the entities is disallowed. Upgrade the ORM file is something is not supported by entity. Orm is present at @gigav2/orm
+- If Create, Update, Delete, Find is unable to do any thing stop the coding and inform the user of your updates first.
+- Do not create proxy or additional functions for create, update, delete
+- Keep ORM generic do not add Entity functions in the ORM
+- MCP.ts will execute inner graphql for the operations they will not implement any
+- JSON is disallowed in the Graphql Schema use proper types only
+- Dont use zod for typing

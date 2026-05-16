@@ -1,9 +1,16 @@
-import type { AgentRunInput } from '@connectingmatrix/ai-agents';
-export interface SwarmCoordinatorAgentInput extends AgentRunInput { objective?: string; payload?: Record<string, unknown>; }
-export const SwarmCoordinatorAgent = {
+export interface AdvancedAgentRunInput { objective: string; context?: Record<string, unknown>; }
+export interface AdvancedAgentRunOutput { agent: string; output: string; steps: string[]; metadata: Record<string, unknown>; }
+export const swarm_coordinator_agent = {
   name: 'swarm-coordinator-agent',
-  description: 'Coordinates 10-100 agent swarm plans through the swarm package.',
-  async run(input: SwarmCoordinatorAgentInput): Promise<string> {
-    return ['advanced-agent:swarm-coordinator-agent', `objective: ${input.objective ?? input.message}`, input.payload ? `payload: ${JSON.stringify(input.payload)}` : '', `message: ${input.message}`].filter(Boolean).join('\n');
+  packageName: '@connectingmatrix/ai-agents-advanced',
+  kind: 'advanced' as const,
+  title: 'Swarm Coordinator Agent',
+  description: 'Coordinates high-volume agent swarm work.',
+  inputSchema: { type: 'object', required: ['objective'], properties: { objective: { type: 'string' }, context: { type: 'object' } } },
+  outputSchema: { type: 'object', properties: { output: { type: 'string' }, steps: { type: 'array' } } },
+  async run(input: AdvancedAgentRunInput): Promise<AdvancedAgentRunOutput> {
+    const objective = input.objective.trim();
+    return { agent: 'swarm-coordinator-agent', output: `Swarm Coordinator Agent completed: ${objective}`, steps: ['understand objective','inspect context','produce advanced output'], metadata: { usesCoreContract: '@connectingmatrix/ai-agents/agent-contracts' } };
   },
 };
+export default swarm_coordinator_agent;

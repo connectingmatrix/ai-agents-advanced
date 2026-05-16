@@ -1,0 +1,58 @@
+{
+  "weights": {
+    "functionalCompleteness": 25,
+    "backendWiring": 20,
+    "uiKitCompliance": 15,
+    "rbacAuthCorrectness": 15,
+    "stateCoverage": 10,
+    "testingVerification": 10,
+    "maintainabilityDocs": 5
+  },
+  "thresholds": {
+    "complete": 90,
+    "mostlyAcceptable": 80,
+    "partial": 70
+  },
+  "caps": [
+    {
+      "id": "crud_without_backend",
+      "maxScore": 65
+    },
+    {
+      "id": "admin_without_backend_rbac",
+      "maxScore": 65
+    },
+    {
+      "id": "unwired_buttons_or_forms",
+      "maxScore": 65
+    },
+    {
+      "id": "static_crud",
+      "maxScore": 65
+    },
+    {
+      "id": "compat_api_missing",
+      "maxScore": 65
+    },
+    {
+      "id": "matrix_incomplete",
+      "maxScore": 65
+    },
+    {
+      "id": "checks_not_attempted",
+      "maxScore": 65
+    },
+    {
+      "id": "ui_kit_ignored",
+      "maxScore": 65
+    },
+    {
+      "id": "missing_completion_checklist",
+      "maxScore": 65
+    },
+    {
+      "id": "missing_final_docs",
+      "maxScore": 65
+    }
+  ]
+}

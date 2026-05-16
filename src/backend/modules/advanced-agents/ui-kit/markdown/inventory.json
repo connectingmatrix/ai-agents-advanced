@@ -1,0 +1,2449 @@
+{
+  "source": "UI Kit FInal.zip/process-monitoring-final",
+  "totalFiles": 305,
+  "textFiles": 241,
+  "binaryFiles": 64,
+  "generatedFor": "Software Builder AI Agent context",
+  "files": [
+    {
+      "path": "ATTRIBUTIONS.md",
+      "sizeBytes": 290,
+      "sha256": "7eef0ed2b6fb8a4d85c6217fbcbebfdedc8e4ac286d55920ea8de35167baa89f",
+      "category": "support file",
+      "textExported": true,
+      "mimeType": "text/markdown"
+    },
+    {
+      "path": "default_shadcn_theme.css",
+      "sizeBytes": 4319,
+      "sha256": "54729cdf634fadd501e3c92429ebfabb3f80553157f35051338cbda1337c1bda",
+      "category": "style/theme",
+      "textExported": true,
+      "mimeType": "text/css"
+    },
+    {
+      "path": "dist/assets/index-DpgeOZeo.css",
+      "sizeBytes": 182775,
+      "sha256": "d973808c3ab50962a04e078e7cfa8c712ae5d10a8d35aae4838731f0f04393c7",
+      "category": "style/theme",
+      "textExported": true,
+      "mimeType": "text/css"
+    },
+    {
+      "path": "dist/assets/index-P3Zvzax3.js",
+      "sizeBytes": 1914443,
+      "sha256": "25c65c0d716ae08c85fd437625b432bb3084059536572fdb1633cfbd33ebee88",
+      "category": "support file",
+      "textExported": true,
+      "mimeType": "text/javascript"
+    },
+    {
+      "path": "dist/assets/index.es-BkZkt6xF.js",
+      "sizeBytes": 159598,
+      "sha256": "e5228ff6cadcad5d74bff5800478af446d14cb6e5c7898bd58f57fa2913e4711",
+      "category": "support file",
+      "textExported": true,
+      "mimeType": "text/javascript"
+    },
+    {
+      "path": "dist/assets/purify.es-BaNf_EpD.js",
+      "sizeBytes": 24294,
+      "sha256": "e6a9da9087b71989d2e82292dc70225571e2aedf31ee118522b99900790aba51",
+      "category": "support file",
+      "textExported": true,
+      "mimeType": "text/javascript"
+    },
+    {
+      "path": "dist/favicon.svg",
+      "sizeBytes": 283,
+      "sha256": "4d7e0622d4ebbf4b04f43699ff4ed6f0a4fcc2662455f49125f3e9392cbd6174",
+      "category": "support file",
+      "textExported": true,
+      "mimeType": "image/svg+xml"
+    },
+    {
+      "path": "dist/index.html",
+      "sizeBytes": 596,
+      "sha256": "1f5a99e3ca9ce22805cd4b32fa2f7a36c944f964193a68945a756fb933423e1f",
+      "category": "support file",
+      "textExported": true,
+      "mimeType": "text/html"
+    },
+    {
+      "path": "guidelines/Guidelines.md",
+      "sizeBytes": 2559,
+      "sha256": "8a4a52a8fac382f8b44d2f6b713e9643153bd1c732d34ed323d88cb290829257",
+      "category": "support file",
+      "textExported": true,
+      "mimeType": "text/markdown"
+    },
+    {
+      "path": "index.html",
+      "sizeBytes": 496,
+      "sha256": "eddf78cf15dbf9e17856b6bdff123eac0a9acede47c2479355788e0044d9bdaf",
+      "category": "support file",
+      "textExported": true,
+      "mimeType": "text/html"
+    },
+    {
+      "path": "package-lock.json",
+      "sizeBytes": 233940,
+      "sha256": "ec48a414fd462fd03acf27d7544176328adeff7da4d8ff20ed64db662fd6e32b",
+      "category": "support file",
+      "textExported": true,
+      "mimeType": "application/json"
+    },
+    {
+      "path": "package.json",
+      "sizeBytes": 2569,
+      "sha256": "aa8e31e789e8a5fbb5811fe961d78b2a2a31a9cae0f8d07b5d0fc9f32408642e",
+      "category": "project config",
+      "textExported": true,
+      "mimeType": "application/json"
+    },
+    {
+      "path": "pnpm-workspace.yaml",
+      "sizeBytes": 17,
+      "sha256": "11c9ba769c156f38b55880ec6e76fe59d8bfe38ebd728b286161e9e73a3def59",
+      "category": "support file",
+      "textExported": true,
+      "mimeType": "application/yaml"
+    },
+    {
+      "path": "postcss.config.mjs",
+      "sizeBytes": 460,
+      "sha256": "3bd292996c6442cf7bb3a766e7d512d0aef81d9db108933d68d17c9cd715632c",
+      "category": "project config",
+      "textExported": true,
+      "mimeType": "text/javascript"
+    },
+    {
+      "path": "PROCESS_MONITORING_NOTES.md",
+      "sizeBytes": 2077,
+      "sha256": "9f3f4bb6445823657d04aa01b9f7239b3e6a0c71ea1d03f98b28b05a605ad09c",
+      "category": "support file",
+      "textExported": true,
+      "mimeType": "text/markdown"
+    },
+    {
+      "path": "public/favicon.svg",
+      "sizeBytes": 283,
+      "sha256": "4d7e0622d4ebbf4b04f43699ff4ed6f0a4fcc2662455f49125f3e9392cbd6174",
+      "category": "support file",
+      "textExported": true,
+      "mimeType": "image/svg+xml"
+    },
+    {
+      "path": "README.md",
+      "sizeBytes": 335,
+      "sha256": "48a5d90a467f37e7362a36694d414cf0333b987cd635e86afa36e67b4a1c7d89",
+      "category": "support file",
+      "textExported": true,
+      "mimeType": "text/markdown"
+    },
+    {
+      "path": "src/app/App.tsx",
+      "sizeBytes": 639,
+      "sha256": "bb174d5ceb2e8f210d01f07c96a7e5b82a3009ded91036a082646de67336db28",
+      "category": "support file",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ActivityPanel.tsx",
+      "sizeBytes": 2786,
+      "sha256": "50cfa50d32230a956136d09b72cd75864268b310bbcb77381f85c30cb809c341",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/AlertsPopover.tsx",
+      "sizeBytes": 3850,
+      "sha256": "f16527899789f1ff5b13bfd2aae8edf320037889cff897a2122807c7ede173ca",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/Badge.tsx",
+      "sizeBytes": 1058,
+      "sha256": "6308d9361701b4c00eac1e788c1f18efec702bf6265f29e5c9fc46579d810241",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/BookmarkButton.tsx",
+      "sizeBytes": 2577,
+      "sha256": "b2ff7bee705d9b83ce599bc1f2021ce8187a74175a2f8bc5017d03143fdb0bdd",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/BottomNav.tsx",
+      "sizeBytes": 1908,
+      "sha256": "156aad55dad9355124a40318fd1e3c9e771cf69d52e155b3127dfd9ca1986d69",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/Breadcrumb.tsx",
+      "sizeBytes": 860,
+      "sha256": "00a9981e1563d3b530f55a957bbfe3b76179ed8919c790660f7041a146974701",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/Button.tsx",
+      "sizeBytes": 2482,
+      "sha256": "b0926f05d6f7f8da6b86d2166930f787f40ec08e24e11c9224d5360cf34df0f9",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/Card.tsx",
+      "sizeBytes": 666,
+      "sha256": "89a8cd5f4a7d4fdd57f4282f2396d53a9302c95fa8f7d108ebcf17bca2d0599c",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ChatMessage.tsx",
+      "sizeBytes": 8418,
+      "sha256": "8393607cae09751d2c6edc9fc09271c69df9b81be138786e9abb88fd30fd3fb2",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ColumnsPopover.tsx",
+      "sizeBytes": 3251,
+      "sha256": "84786900aeb4c228ae837d8cdc01810d7c56e0913d8c0227bf41d5e5b2e183f8",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ConfirmDialog.tsx",
+      "sizeBytes": 2294,
+      "sha256": "a558af9b4b208d2656552669dbf34e4317c49146d995f7d2a4eafca5503c117e",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ContextMenu.tsx",
+      "sizeBytes": 4063,
+      "sha256": "f613ac12c4d4a0fd8d0d5f32968e6e33ea02e01fe395b793b1c192388312462f",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/CreateModal.tsx",
+      "sizeBytes": 11449,
+      "sha256": "05eaf3bd6c4e1dd433f5d37a96bb5b0d942d2df09edd0f571184f1a3402756d5",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/DataTable.tsx",
+      "sizeBytes": 4604,
+      "sha256": "d4b2dceb6c3e129d3f0a41fb6fa502f828d37b7a36b587b9e5e6ad1dffad3055",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/DependentSelect.tsx",
+      "sizeBytes": 5739,
+      "sha256": "501e8427a270a5589b93d9dc3934e0e17f87c07e73f9f6b019c28545e6273459",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/DraggableTable.tsx",
+      "sizeBytes": 10416,
+      "sha256": "ba6a206a5c3176c75f979fcc3abc1460a93abfe0c92dfe5553e346ba5d7775d0",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/editors/MarkdownEditor.tsx",
+      "sizeBytes": 6101,
+      "sha256": "03b8f52bbbb8ceda2ccc9dfef6e4e275c282d32be15486a7f79ede513d555125",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/EmptyState.tsx",
+      "sizeBytes": 932,
+      "sha256": "ee4b2c4be380d1179ce60462b210ac0fae80273b41e77ab863d245dc5e7e47a6",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/EnhancedDataTable.tsx",
+      "sizeBytes": 15286,
+      "sha256": "a9e8abf9b836a3322e308e3bf5a301ce5c46c3765f929bfb92d241f4eda6eca0",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ErrorState.tsx",
+      "sizeBytes": 1743,
+      "sha256": "40da335987c514091bc0800d93e263ddcc7687f51f90fcdd1d32bf2ccd976362",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/figma/ImageWithFallback.tsx",
+      "sizeBytes": 1153,
+      "sha256": "79caaf9d1736698c090823383f7b18a9496e9c1309a40f925c8aeb37e496bd8e",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/FileAttachmentManager.tsx",
+      "sizeBytes": 5627,
+      "sha256": "9fe65241f322c6d38f4fcac0df8a8d2873ce8f643cd893644a30455b62aa90ae",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/FileUploadModal.tsx",
+      "sizeBytes": 10400,
+      "sha256": "26cdc92b785d7820cb1de1f2596d019ec146e3bbe8932645a7dbba8f2550ab41",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/FileViewer.tsx",
+      "sizeBytes": 9425,
+      "sha256": "35e1779a11584cbc63249b264387b500538ebc67bdb2899da3b985b6599bfe82",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/FilterBar.tsx",
+      "sizeBytes": 2484,
+      "sha256": "122abde19f157f24408d2d2e2c83a8e7bc7b46a42f47268078744e5f8ad21308",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/FilterPopover.tsx",
+      "sizeBytes": 3370,
+      "sha256": "ea58b8df3aa0a29c691dddd96008b8ee814ecbd92167ca66c8158b692514d8a6",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/filters/InlineFilterBar.tsx",
+      "sizeBytes": 5199,
+      "sha256": "10903988780ec26221987e6e0e51a242df81b1dc62aaa17966d9753f4b3b6a89",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/FormField.tsx",
+      "sizeBytes": 5058,
+      "sha256": "1740659eafef43fbed9370f85e308b0946f6bbb096348c231ca38637bdb5234a",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/GlobalHeader.tsx",
+      "sizeBytes": 9309,
+      "sha256": "5999ffd9e5895f350dfbec6e2f6611d0fd70521a0e8ff1893a3fdcda15f591d6",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/HierarchicalTree.tsx",
+      "sizeBytes": 13041,
+      "sha256": "6fa20b83684ed5ab5bf44a068b66bc8d38b34f23cdbfbe15ea2cfa27c8afce80",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/InlineConfirmation.tsx",
+      "sizeBytes": 1160,
+      "sha256": "47fa3e6f31512bb8f70247a9428f23350df61fbcd6670f80a4a95ee534fcec3c",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/IntelligenceModal.tsx",
+      "sizeBytes": 14278,
+      "sha256": "d7fdfbc6674c95dccccbdeb99cfdc531da0f2603f920b7e66edf583f3f0e72f9",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/LazyLoadList.tsx",
+      "sizeBytes": 5293,
+      "sha256": "974e96dcc0158c7327d22d6d4b008987b43cdd229414e511844193d2a763758b",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/LazyLoadTree.tsx",
+      "sizeBytes": 5179,
+      "sha256": "6e11d7d0652203de5fb5831ac68b02a4887c1669b0082120b952af3c71e797ff",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/LoadingState.tsx",
+      "sizeBytes": 3267,
+      "sha256": "7eac1025723386489e31824f6e01224f95547b5c63c8d90a9cbe5b0a6808ecae",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/LogViewer.tsx",
+      "sizeBytes": 1837,
+      "sha256": "60b6a2a59b84343d84e9ee80b73c7a8743983a36eef392fe62c54eb606c1e239",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/LogViewerTable.tsx",
+      "sizeBytes": 2876,
+      "sha256": "6fa43ff71de70438cf3fe3c18278a949ff2eb647d3635fe11f5848e32f68be32",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/Modal.tsx",
+      "sizeBytes": 2551,
+      "sha256": "dd9c180e407e45105ffee2fedb27aa7b98a874f302dd80a228932e5e27c17bed",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/monitoring/AlertItem.tsx",
+      "sizeBytes": 1160,
+      "sha256": "60029d10de682ef624b9b51c4d43dd5595a8d0a0b4fc7911ef58af34f3e1adab",
+      "category": "process monitoring",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/monitoring/Legend.tsx",
+      "sizeBytes": 820,
+      "sha256": "173a1854c105ab686c116e735baab9c52fd6f5b016e4012c5d5b4f6f84a06a34",
+      "category": "process monitoring",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/monitoring/LiveBadge.tsx",
+      "sizeBytes": 544,
+      "sha256": "7f0fc378b02dd8f62f3436ca6008eb6e0047bf32915b1830553ad1a957df3a3e",
+      "category": "process monitoring",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/monitoring/MetricCard.tsx",
+      "sizeBytes": 1430,
+      "sha256": "f96c22bf39a4e451c33b205c331ac286e34977f5028b4983a2e23a8cd300b8f9",
+      "category": "process monitoring",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/monitoring/Panel.tsx",
+      "sizeBytes": 612,
+      "sha256": "9ddd310516167c6922db042e86549def32b89c257ff8bdcf520948cdf2d87527",
+      "category": "process monitoring",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/monitoring/PanelHeader.tsx",
+      "sizeBytes": 847,
+      "sha256": "56d3a532215d4e6abb3c45c3f5bcc3cf8e189a163611a610ac9e88bde5677bff",
+      "category": "process monitoring",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/monitoring/Popover.tsx",
+      "sizeBytes": 5994,
+      "sha256": "c2bd247ea5df94fd001feaae6c4c451e1337f041d6dba20f60178c0ec0a5b4a2",
+      "category": "process monitoring",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/monitoring/SearchInput.tsx",
+      "sizeBytes": 961,
+      "sha256": "7824cb51b2c100c68599c8f74d0bce7acada0cfc3aa84e90b60b67ac28a9fefa",
+      "category": "process monitoring",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/monitoring/SegmentedControl.tsx",
+      "sizeBytes": 1131,
+      "sha256": "fad1184f5f88009aadee61e46c35211cb6e30a853ad780367ee4662a0928cc4f",
+      "category": "process monitoring",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/monitoring/SparklineChart.tsx",
+      "sizeBytes": 1407,
+      "sha256": "d638032059ed8c4210636f997dd5d00a6681dd8c397312a774d0c2aeb9db4061",
+      "category": "process monitoring",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/monitoring/StatusDot.tsx",
+      "sizeBytes": 1647,
+      "sha256": "7676dc5bfb89e0d3621f09c6a418a5984de5f9f332fbf7153a35136c2b9d0b4b",
+      "category": "process monitoring",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/monitoring/Toggle.tsx",
+      "sizeBytes": 868,
+      "sha256": "4b4603e714f5fb428241035310eabc8e095077f8a372a793fd673b50225d3b3c",
+      "category": "process monitoring",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/monitoring/ToolbarButton.tsx",
+      "sizeBytes": 1886,
+      "sha256": "d65f3c1c3e78836e7eae9822b549d7eb58e4665a54184eda4cd30d95b5cb2adf",
+      "category": "process monitoring",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/MultiSelect.tsx",
+      "sizeBytes": 11778,
+      "sha256": "01f95d9576110d40d2568b2dcaa8719fe140ac23d98c5d4d2e61e23dc39ac1ce",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/NodeEditorModal.tsx",
+      "sizeBytes": 8424,
+      "sha256": "18fe8712e176fdc6935ba8fdeb3daa8ff1ee479029de27be7f22b7d60258c7f6",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/patterns/AlertsPopover.tsx",
+      "sizeBytes": 2498,
+      "sha256": "a227ef80d6318ff0d1d100dd5a9b0b73c67b842df4bb63b59b293ab987e68fd8",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/patterns/ColumnsPopover.tsx",
+      "sizeBytes": 3352,
+      "sha256": "3ab861f79b504333ef3c44429476e4ee06d33ebac82de341e033957196aa5e33",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/patterns/EmptyState.tsx",
+      "sizeBytes": 2761,
+      "sha256": "ca349a69a9e9eac1f57459b9f327df8f9dda1599aac8c6f6c729bb56d95ac6ce",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/patterns/FilterPopover.tsx",
+      "sizeBytes": 3513,
+      "sha256": "4be18320c6978972c29a409ef5d9876e110d1143f5be52872e4411f4a43b8e7a",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/patterns/MessageSender.tsx",
+      "sizeBytes": 7924,
+      "sha256": "807279db15d649bc5390f6a981bf6bc9907d3b611305bffb2891cb21aedb06db",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/patterns/SettingsPopover.tsx",
+      "sizeBytes": 4740,
+      "sha256": "fc7eb37d2b39d716ee5f555bde1b3ffa10f8236717e99cba5f68bb39e0cb5f66",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/PermissionsMatrix.tsx",
+      "sizeBytes": 7841,
+      "sha256": "ebc867d42b50d19e70ceb3839a58df450dbdb8e0f568614f1bd64d6bfdcb2e13",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/PositionedPopover.tsx",
+      "sizeBytes": 8804,
+      "sha256": "58d9d1d553faa8c4f938ac29e989274d3a7dc2d12100017381dbb3242a244ece",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ProgrammaticSidebar.tsx",
+      "sizeBytes": 15012,
+      "sha256": "ef75bea98aea08aaa9135a5689b14468fc137e3bd814637197c7f3fa35b4c351",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/Root.tsx",
+      "sizeBytes": 3063,
+      "sha256": "992411c52185297f983c57aefd676e3e0b517607546ef37e3d000851a6aa8331",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/SearchBar.tsx",
+      "sizeBytes": 1021,
+      "sha256": "8f7e7a9c577b469aa4f44cffebe8ff03088c16451e18d1c70d76b96ec8a838fd",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/selectors/TableMultiSelector.tsx",
+      "sizeBytes": 7842,
+      "sha256": "baea4e02f5215097d18343fa6403841a7905d81e27f1883683a510bc230a3bbd",
+      "category": "selector",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/selectors/TableSelector.tsx",
+      "sizeBytes": 4697,
+      "sha256": "86f73a1e2702fe52ae99c1d61f484826a7c1e0c536b07a6d28fc1f3e0c9ee972",
+      "category": "selector",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/selectors/TreeMultiSelector.tsx",
+      "sizeBytes": 11439,
+      "sha256": "d43302ad4f95fc6ba24925a1a6f89c5624a36692894595330b222085dbe71ee0",
+      "category": "selector",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/selectors/TreeMultiSelectorModal.tsx",
+      "sizeBytes": 8008,
+      "sha256": "ae14024394675c1f367eb9b09cf72b3f113f5497bf5bbabbffd14f78ebd1ce64",
+      "category": "selector",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/selectors/TreeSelectField.tsx",
+      "sizeBytes": 3707,
+      "sha256": "2d3d3c74d918588037a179ebc7a23ce72bbadf11748f978946eda0400c4706fc",
+      "category": "selector",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/selectors/TreeSelector.tsx",
+      "sizeBytes": 6073,
+      "sha256": "7c9140db5b7a0c264e7c2b306fa096bdee8b6a89fd8ce3e0df75727d62104261",
+      "category": "selector",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/selectors/TreeSelectorModal.tsx",
+      "sizeBytes": 7782,
+      "sha256": "42bed0607a803a29e6fde017ef5478fd8cdd4f1579d202ea224aa7903a8d66a3",
+      "category": "selector",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/settings/AccentColorPicker.tsx",
+      "sizeBytes": 1268,
+      "sha256": "b0db512ac470d13e96ce38a541c2087744714b9cabf1a3b08d91ac37dbbfddb6",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/SettingsPopover.tsx",
+      "sizeBytes": 3937,
+      "sha256": "d07c575f97781be263159ca12dee90a4b82ff04afa15f2bb48532440470a7db0",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/Sidebar.tsx",
+      "sizeBytes": 9587,
+      "sha256": "1a7f1a7f6d91b9e6905a5937a1b574539836149c7be324a251bdeedd36769531",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/SplitView.tsx",
+      "sizeBytes": 3395,
+      "sha256": "4c2115ac82e3c16a50541dd6cc7e772474a5ead655645704c5b00ee3a1879aaa",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/TabbedFormView.tsx",
+      "sizeBytes": 1815,
+      "sha256": "c6ba594e51992af996c568c85940f5ed6595c9bcea16cb8616d76cb7ff4368de",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/tables/RealtimeTable.tsx",
+      "sizeBytes": 5562,
+      "sha256": "14820f726495211e7c7f3ef6287a130ee3807a82dcb9eea4ef0204a68443a54d",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/Toast.tsx",
+      "sizeBytes": 2590,
+      "sha256": "bc457c80d4bff21f63346596de455482d03b64849bb2dd1fc0485b8f514e890e",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/TreeView.tsx",
+      "sizeBytes": 3975,
+      "sha256": "e80ae6f8f8cf16647971b02de6bbe75c6a2c55e8492770075569a2b022eb1332",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/accordion.tsx",
+      "sizeBytes": 2060,
+      "sha256": "0ff6fadd3560c21aa67911d817f89d206188fd07bd57244ba59a117bd4ff9cb4",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/alert-dialog.tsx",
+      "sizeBytes": 3866,
+      "sha256": "16f0bf95de446a8579cba6e75557fd83eb4aa0dbbc77ee936fbb59451e9390e9",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/alert.tsx",
+      "sizeBytes": 1621,
+      "sha256": "19835c5f03b78e8915b5e8900a0681ddfb83e3bcc0c9930e62f31c01e4dfb129",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/aspect-ratio.tsx",
+      "sizeBytes": 284,
+      "sha256": "7706745e217bebbc2d7bdf6697e9c6d484061146ae771755c9b6f240762c7217",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/avatar.tsx",
+      "sizeBytes": 1104,
+      "sha256": "d40b1cbabe71c094c6bcf089ac5702ec77623dbc75c770ca9f86530e03d6fea1",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/badge.tsx",
+      "sizeBytes": 1636,
+      "sha256": "8329a0b50f818665f1aca05ab93c16b103178b463f2949234ee4416bbc7d3fe2",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/breadcrumb.tsx",
+      "sizeBytes": 2368,
+      "sha256": "c9fcf4df692c80c06ccc38c32f7045d1f389197c503edac32941cde64bada62e",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/button.tsx",
+      "sizeBytes": 2106,
+      "sha256": "a3f96150fdf0c929eec3759673cc34b2cf5538fc088b25a54c00e0a3ed1c3f60",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/calendar.tsx",
+      "sizeBytes": 2913,
+      "sha256": "280ba2b6416bb46259762fbb0068c61e93f186242516a10c2f319d484b09485d",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/card.tsx",
+      "sizeBytes": 1988,
+      "sha256": "afc99cfa090791e394e68766095a4a86f5f6140521546b32d4b298061d72473f",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/carousel.tsx",
+      "sizeBytes": 5606,
+      "sha256": "5ffdde6336f0ee479c11255f3b951b230a1771f0080323f4dd0def03d677f50c",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/chart.tsx",
+      "sizeBytes": 9852,
+      "sha256": "e3e14ac980ce857edda5414ceaf8d7e504b5be37a4d99c28ff67c4c2535f51ff",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/checkbox.tsx",
+      "sizeBytes": 1244,
+      "sha256": "894eb30992723a15e3ae75c46a3bf8808a526f5b3bff2c61c78f4d3e8d521cb8",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/collapsible.tsx",
+      "sizeBytes": 806,
+      "sha256": "b763764ebced561c04e2e6ada9dc53375bb90b9f4bcb91b0f3d5de7381aaf0cb",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/command.tsx",
+      "sizeBytes": 4662,
+      "sha256": "17ae21889928aeb0c042911153b7f0715bf537b190da31f16fc5798b9439aa2f",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/context-menu.tsx",
+      "sizeBytes": 8251,
+      "sha256": "e17a7028f18669ddd104e0f40fbb0110ebab0cfc89ad6910a43d2dc8539e7c22",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/dialog.tsx",
+      "sizeBytes": 3828,
+      "sha256": "f4adc0065a7f795b5d99b8afe095a443d2d03b523cf5f958bc36ee7fbe0d3e45",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/drawer.tsx",
+      "sizeBytes": 4085,
+      "sha256": "5a99d073185e0ef6d984436547dce1f99c333dde7c1d7f33a2155dce05216514",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/dropdown-menu.tsx",
+      "sizeBytes": 8313,
+      "sha256": "798b5337dc147d88c65de01f7221e0bfa04272968a1fce6acc1ec0bef7d9ddb9",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/form.tsx",
+      "sizeBytes": 3785,
+      "sha256": "b181a640358bd91b827f7e3ba610036f24a976994d4d88b480471a167770a508",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/hover-card.tsx",
+      "sizeBytes": 1537,
+      "sha256": "6ec1ef98aef3898ef3f8eb35e52c10add150d76cd041132d2520fe3016ecfe60",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/input-otp.tsx",
+      "sizeBytes": 2282,
+      "sha256": "b15b03f71841b176baa6e0294a0790eea1ffe9264c55003fbbc9039d8457057b",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/input.tsx",
+      "sizeBytes": 963,
+      "sha256": "cb82ffcd1a9accdf9b07edc8e976f43ad1c9cf91968ffd7639df5df14b7ad407",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/label.tsx",
+      "sizeBytes": 614,
+      "sha256": "5ed157f039340cedaa59a888931db608667827170ae9538513a50ccf2ca65a9f",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/menubar.tsx",
+      "sizeBytes": 8426,
+      "sha256": "1f0173397dac560a4748782bb595c956155a9360755667bee3d18c4a0f1179b1",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/navigation-menu.tsx",
+      "sizeBytes": 6684,
+      "sha256": "df9f6e0c1d3fb1b265f8561ef00c98412f24a360a00cb7935b7c6f9a0d7513e6",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/pagination.tsx",
+      "sizeBytes": 2709,
+      "sha256": "10bad2279ea5120ade645a1a834ed74f2471cde0fe7f3e9457fcb4918b7d0bc3",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/popover.tsx",
+      "sizeBytes": 1641,
+      "sha256": "f14e16bebcfb1b605f6336d52153e43b76456c419930faea216d0ce2e3b1d3b7",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/progress.tsx",
+      "sizeBytes": 743,
+      "sha256": "956cf4b485bcf57684caac10df2aa2a72387d0736d8f4cd1315c49ebd2da4615",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/radio-group.tsx",
+      "sizeBytes": 1471,
+      "sha256": "ecaeebb62d064893c23e7242b796ff5834e2b430676b3eecb1b3d4bc413283c8",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/resizable.tsx",
+      "sizeBytes": 2036,
+      "sha256": "7930ed39d1095de95193bb72ef046b8198647e1114d9a437aa1cd04c0975c5a8",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/scroll-area.tsx",
+      "sizeBytes": 1649,
+      "sha256": "5bd9bb1d6909467b431283e96d2a9c83003bca1aa043d149dcfed8e81de51986",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/select.tsx",
+      "sizeBytes": 6275,
+      "sha256": "6aaf2111952394fbb8c64a505af02d08da28cc25726d61a991daebe400772480",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/separator.tsx",
+      "sizeBytes": 707,
+      "sha256": "54cc34fc3ef7e445948c5bccf7307efbb2c8f9e63db0fc68dd3fa8ee54dc9812",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/sheet.tsx",
+      "sizeBytes": 4105,
+      "sha256": "8e1e064f92e2463bc7b8bb227a7c4d68d7464837c02d48ff75a87585d864c54c",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/sidebar.tsx",
+      "sizeBytes": 21663,
+      "sha256": "24e197a06698ac0606e99b3ab9e7c31e9544e759eb929d22f37ea15391cae1c1",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/skeleton.tsx",
+      "sizeBytes": 275,
+      "sha256": "7fd5d7f3ea479c3c1ae7be79bdbaf84c87647333768f70d396cd84580535d485",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/slider.tsx",
+      "sizeBytes": 2006,
+      "sha256": "19dd9d8b758f41fa61967d1a0540ea34ed989727258d23eef9a50cdebcab805b",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/sonner.tsx",
+      "sizeBytes": 571,
+      "sha256": "c5853f16cc11cb69e0115bab13eeabe7be5dad16fafd77b35cdfe4dbc64f0256",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/switch.tsx",
+      "sizeBytes": 1182,
+      "sha256": "d4c744131c6161300510909aafe2c2cb6d819f2c7a8c2aeb75d4317004c7eff7",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/table.tsx",
+      "sizeBytes": 2460,
+      "sha256": "e4ec7d3be042efd0fa363a57dd0e649a7831b86f975d4ec5192ebbfdd66e0f95",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/tabs.tsx",
+      "sizeBytes": 1945,
+      "sha256": "933b8f421bd84b21a22e3fd11cd62fbf4fd8b6fb7252f42ea706b9cd29255051",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/textarea.tsx",
+      "sizeBytes": 767,
+      "sha256": "6c3127c28ba1dda0428ba286a9e291c52ad95bfc8acd10518b262b71e470f3e7",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/toggle-group.tsx",
+      "sizeBytes": 1920,
+      "sha256": "43e56c5487ed93a2e0d418dcf944a646c716b8c8c55d050fcda1d5cd1248cce6",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/toggle.tsx",
+      "sizeBytes": 1565,
+      "sha256": "31f91bca26bed6bc884e3dbebe095046d4cf925b9d7676094721ac287d0b2135",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/tooltip.tsx",
+      "sizeBytes": 1897,
+      "sha256": "2f3a8720fb4b75c6911450be73d0407e2a84bb5ea1ded28ccdbf955be62a0155",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/ui/use-mobile.ts",
+      "sizeBytes": 585,
+      "sha256": "738d8e4520edeca7caa2ca56a4923839e30be14a00fc32b5a770f5d5b451a63e",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "text/vnd.trolltech.linguist"
+    },
+    {
+      "path": "src/app/components/ui/utils.ts",
+      "sizeBytes": 169,
+      "sha256": "d1f1e0d62cb8d8d1e04c26e14de842d8a151f75812d81b046c65b5d1fe8e4b27",
+      "category": "shadcn ui primitive",
+      "textExported": true,
+      "mimeType": "text/vnd.trolltech.linguist"
+    },
+    {
+      "path": "src/app/components/upload/FileUploader.tsx",
+      "sizeBytes": 8083,
+      "sha256": "73a599da6edd589c2e0c395bbf5e6a8d031d6fb0f372688b69b60cb7f8720c21",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/components/upload/FileViewer.tsx",
+      "sizeBytes": 6725,
+      "sha256": "6038fd5a79cb38b8aeff3360170bde932e72890d6d742c632da9ea05be8506e4",
+      "category": "component",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/contexts/AccentColorContext.tsx",
+      "sizeBytes": 3923,
+      "sha256": "e942051187cba2c0ecd068a5c9af79ad2198b83938fe716af41f2c8b37ca609e",
+      "category": "context provider",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/contexts/BookmarkContext.tsx",
+      "sizeBytes": 2581,
+      "sha256": "78c9be68d4c60fc00d5e9aec33cac62039e2a4357fa834bb3ea3414ae2460186",
+      "category": "context provider",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/contexts/DarkModeContext.tsx",
+      "sizeBytes": 1167,
+      "sha256": "b32fb8f3533786fad9ab40b9b7d3aee84b66e86a15d71a83d6404acef82905ae",
+      "category": "context provider",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/data/mockData.ts",
+      "sizeBytes": 7747,
+      "sha256": "4d9400ce73439e08c065d5d8fab493250ccdab4070cad997953516b71e400664",
+      "category": "data contract",
+      "textExported": true,
+      "mimeType": "text/vnd.trolltech.linguist"
+    },
+    {
+      "path": "src/app/data/pageContent.json",
+      "sizeBytes": 24066,
+      "sha256": "911c6dfd9ecd4b942e5baf1d43cfde431a8db44c11d8884f896fcc38e31933f5",
+      "category": "data contract",
+      "textExported": true,
+      "mimeType": "application/json"
+    },
+    {
+      "path": "src/app/format.ts",
+      "sizeBytes": 268,
+      "sha256": "c5df3379f5e4158c082b67dfaaf290b2907e2a02e66b2a091af08b7cc0ea7dbd",
+      "category": "support file",
+      "textExported": true,
+      "mimeType": "text/vnd.trolltech.linguist"
+    },
+    {
+      "path": "src/app/process-monitoring/components/MetricsGrid.tsx",
+      "sizeBytes": 1592,
+      "sha256": "40a6e8bf776842e4fbe1007e8a620b369f76557fbe18f61b2696812bdb4e4bbf",
+      "category": "process monitoring",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/process-monitoring/components/MonitorFooter.tsx",
+      "sizeBytes": 2115,
+      "sha256": "1d5834d5c0d136b2c4a8db054c7cc334e013e1c812c52444cdb66c223505f4ca",
+      "category": "process monitoring",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/process-monitoring/components/MonitorHeader.tsx",
+      "sizeBytes": 3961,
+      "sha256": "479b62a6ba40cf4fc9a79fdefb6f1739d20acc5cfcf27411c217f960d6c6cf91",
+      "category": "process monitoring",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/process-monitoring/components/MonitorPanel.tsx",
+      "sizeBytes": 675,
+      "sha256": "9aade4fcbd899e1f22c624b267505ceb653ad24301724a028288a43d6257a685",
+      "category": "process monitoring",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/process-monitoring/components/MonitorPopovers.tsx",
+      "sizeBytes": 13136,
+      "sha256": "96e83c3d601b8949c08996497a0a5d101194ac1d85515b010a3b8ce2881acac6",
+      "category": "process monitoring",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/process-monitoring/components/ProcessTreePanel.tsx",
+      "sizeBytes": 6384,
+      "sha256": "ec0cd652469bd6775ddbb3cf3dbd397173c6010a55bd263fd617e61fbf98d7fc",
+      "category": "process monitoring",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/process-monitoring/components/ProcessTreeRow.tsx",
+      "sizeBytes": 2793,
+      "sha256": "8fd9cfab8210d77c968b7bd99192f351e84b735d819c8e91efbe10540bfe59aa",
+      "category": "process monitoring",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/process-monitoring/components/ProcessTypeIcon.tsx",
+      "sizeBytes": 894,
+      "sha256": "7b413d85e28a91fd3e8d75438e2da5e0976ddb6997fbd1e5998936d58c5fcbdf",
+      "category": "process monitoring",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/process-monitoring/components/RealtimeLogsPanel.tsx",
+      "sizeBytes": 6266,
+      "sha256": "261584a6017b239595dec92dd2f3d461ed633cae7f36ab34201f2ad00094ae27",
+      "category": "process monitoring",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/process-monitoring/components/UserTreePanel.tsx",
+      "sizeBytes": 8284,
+      "sha256": "53b1f642d684254f561c672752b72792e171a6f8d5b631b5fe6fcdd4383cce50",
+      "category": "process monitoring",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/process-monitoring/formatters.ts",
+      "sizeBytes": 1105,
+      "sha256": "f099725a0665adcf5ff2c99864359dd2d7d16b78211f725d0c5169186dbe6c46",
+      "category": "process monitoring",
+      "textExported": true,
+      "mimeType": "text/vnd.trolltech.linguist"
+    },
+    {
+      "path": "src/app/process-monitoring/hooks/useProcessMonitorSubscription.ts",
+      "sizeBytes": 2162,
+      "sha256": "66e554b61f7e29b364c850bb8e1dd5dade9c57af003e3ae92523386da7514c68",
+      "category": "process monitoring",
+      "textExported": true,
+      "mimeType": "text/vnd.trolltech.linguist"
+    },
+    {
+      "path": "src/app/process-monitoring/index.ts",
+      "sizeBytes": 109,
+      "sha256": "10ae56d477bdd768c0273169427272309a399e2ec76c236bf6481919fbb29ea1",
+      "category": "process monitoring",
+      "textExported": true,
+      "mimeType": "text/vnd.trolltech.linguist"
+    },
+    {
+      "path": "src/app/process-monitoring/mockProcessMonitorData.ts",
+      "sizeBytes": 11963,
+      "sha256": "9db3dbe67eb08a3e312a304768fbb4677acbe40fcbc771d6dc5dd26b1f9d8dfd",
+      "category": "process monitoring",
+      "textExported": true,
+      "mimeType": "text/vnd.trolltech.linguist"
+    },
+    {
+      "path": "src/app/process-monitoring/README.md",
+      "sizeBytes": 1101,
+      "sha256": "d670a301d59e692ae3f8c1c28ee81b75b22cbc4debf5cfde41fe44b55b2cb964",
+      "category": "process monitoring",
+      "textExported": true,
+      "mimeType": "text/markdown"
+    },
+    {
+      "path": "src/app/process-monitoring/realtimeProcessStore.ts",
+      "sizeBytes": 4542,
+      "sha256": "99a99bb1c883581369e1cde9cb3e722c6786d39ffce66d5ff1a709debc282816",
+      "category": "process monitoring",
+      "textExported": true,
+      "mimeType": "text/vnd.trolltech.linguist"
+    },
+    {
+      "path": "src/app/process-monitoring/types.ts",
+      "sizeBytes": 2492,
+      "sha256": "29d3ccd15c1077150fff8b2fed7c035e96e8f45352df0891930220394d75770f",
+      "category": "process monitoring",
+      "textExported": true,
+      "mimeType": "text/vnd.trolltech.linguist"
+    },
+    {
+      "path": "src/app/process-monitoring/views/ProcessMonitorView.tsx",
+      "sizeBytes": 8720,
+      "sha256": "e5ba640f9172d5e47eb3f5a59bb19129e563be9b9f716783c12bd04d55aa9ffc",
+      "category": "process monitoring",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/routes.tsx",
+      "sizeBytes": 5095,
+      "sha256": "6533ddf03adf48810af6e72faea6aa5124dfe5d3ae3b11d7c9d5380071ece452",
+      "category": "support file",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/Activity.tsx",
+      "sizeBytes": 3618,
+      "sha256": "0d555d7aedcea1978cc41d5e995e05270f7fbe7d20aa2b7e748e0aaba597c55f",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/AdminDashboard.tsx",
+      "sizeBytes": 198,
+      "sha256": "affec612e1a5d0fcb7056087e01c406d5ad4502064456b70f685572be17b42dc",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/AdminPlansAndPolicies.tsx",
+      "sizeBytes": 29892,
+      "sha256": "45996883229366d3277b97b7e0cf8f28ed3bb4a389b38faf5cd84077923bbef5",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/AdminPlansAndPoliciesEnhanced.tsx",
+      "sizeBytes": 52576,
+      "sha256": "c9fa99a803e2c003a0b66ff215ba58f66555f0c3b63bd5bdb46e4b21a2217350",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/AdvancedComponentsShowcase.tsx",
+      "sizeBytes": 14065,
+      "sha256": "047b82a5aae2162a8bf09f0f0f4df239e4eca6cc7bebdb7ed71ac8b5aa6cdfab",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/AIAgentEditor.tsx",
+      "sizeBytes": 32663,
+      "sha256": "864e4081e9affede11339eee18d93082b2d5afcdab36a05a614a44f2bb9a5b10",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/AIAgentProjectEditor.tsx",
+      "sizeBytes": 24522,
+      "sha256": "980037f1b2aa16ce1173a987157f4dbe0615215dd98bf542e5fd11ae3eda304d",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/AIAgentProjects.tsx",
+      "sizeBytes": 12506,
+      "sha256": "8daf80bbb5dbd70ac9d5bcfcdb5b51b6c3ecf238fa97a830fafe51d2967bb3df",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/AIAgents.tsx",
+      "sizeBytes": 18752,
+      "sha256": "c0fe345927893a5e7642e3f3cfead8ea38e4d1b863e03c1b1f5e1b49a4153ea3",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/BookmarksScreen.tsx",
+      "sizeBytes": 9941,
+      "sha256": "3b17e588cea0aadbbe475184c32f9576e3adbdb8b4ff275a5588b407462ef3b5",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/CategoryScreen.tsx",
+      "sizeBytes": 4288,
+      "sha256": "3d391aec4b744915580cd1dadebcfc4f51a89db9872c3a307fd05ea8c2f6f34c",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/ChannelScreen.tsx",
+      "sizeBytes": 4442,
+      "sha256": "c47adf1152e991e4e34d418dbeb998e66453748b89730fa591e2fdc09f28fd10",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/ChatConfigure.tsx",
+      "sizeBytes": 18573,
+      "sha256": "cfd62f5a0b324ddd6e2c31c90118dfc2e6bbe639ac24f317f67b7ba063802c77",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/ChatDemo.tsx",
+      "sizeBytes": 7357,
+      "sha256": "4c320e6289c5c4ee8d9b6f21d6bff2a1c58303ae30ce3f9d85dfd514e648c598",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/ChatScreen.tsx",
+      "sizeBytes": 9064,
+      "sha256": "ae0ee759f375971cd5ee3ed84f498742eab4066d20b886b823d75836caf0b261",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/ComponentsShowcase.tsx",
+      "sizeBytes": 173192,
+      "sha256": "fdce9e25fbc9321ccd5f7720a59897224de20e526ca8ff479ac9ee917e15cc03",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/CredentialsManager.tsx",
+      "sizeBytes": 14873,
+      "sha256": "6252ceeb1507bd094b88b47f8c4a7e3f6c357d69128393c11d9aa124c5c70a2d",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/DashboardFromChat.tsx",
+      "sizeBytes": 11701,
+      "sha256": "3034f3a4270f67f9e8f02c82a056b1939663adf1d49999727107f7dd2d0ee1cb",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/DesignSystemShowcase.tsx",
+      "sizeBytes": 10861,
+      "sha256": "ef53883aba86f6c34f8f5b94b1395b4c66273463427ec5914b71a6d4e9778c3e",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/ExploreScreen.tsx",
+      "sizeBytes": 6966,
+      "sha256": "540dc60f1c79ce0b1d2c1b35a8272685ab833c913790200c860fa5c659ae7710",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/FileViewer.tsx",
+      "sizeBytes": 22609,
+      "sha256": "06d6150364cc25afdf5e94cff7350e3cb5f13452b4ec927038343f531aa94ae4",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/GlobalDefaults.tsx",
+      "sizeBytes": 11367,
+      "sha256": "0826a56f5ddbe4bc3b0178c641b7fc0858b4ef42f422abc400af299ee3a85be2",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/Home.tsx",
+      "sizeBytes": 7772,
+      "sha256": "ad81b24698db2e5654af7404ee9199e7fa54c7fbf3b5c85c684e2ec24d28ee56",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/LandingPage.tsx",
+      "sizeBytes": 59840,
+      "sha256": "d520c416a27e38e9028c381e9dfca672ce3aa0d9f329b2778fc170b1565b67fc",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/Login.tsx",
+      "sizeBytes": 10616,
+      "sha256": "849b21e220bae43c07c9bcb948c587a74c36900b73c663fc9bab8a83d18b3824",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/NewComponentsShowcase.tsx",
+      "sizeBytes": 11925,
+      "sha256": "05234b9f159d501d0a591504424d4266559c74b31eb6ccfc7ba4d485fb48a6e8",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/NodeEditor.tsx",
+      "sizeBytes": 64947,
+      "sha256": "38ca9278f554100ac51fde23aaf84b8f22db88d018425f196b10dbe0698252af",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/Nodes.tsx",
+      "sizeBytes": 17680,
+      "sha256": "d293b1e1ef8279f0f8951eb13475e35d5331afdcd220690bc223ebeb5bfa7e50",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/OrganizationDefaults.tsx",
+      "sizeBytes": 11420,
+      "sha256": "9fe3bb040c1bbcc67fcb85e1d00e8aba30a101a916cb80efd292238070ed29a7",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/OrganizationDrive.tsx",
+      "sizeBytes": 22397,
+      "sha256": "acd0d4da353da25851ff89bb32e78e75eef4f2cd0b158c5992e13761d9c5adc9",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/OrganizationMembers.tsx",
+      "sizeBytes": 32046,
+      "sha256": "d156c76740672a0bb844dd611413341f22c5f7dd7435608a43cf93931bf2713b",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/PlansAndPolicies.tsx",
+      "sizeBytes": 16154,
+      "sha256": "499f6b6fdc679d52f81ef8e9ef69ef57cbe12ac5a8056e0aa751817057a07fec",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/PopoverDemo.tsx",
+      "sizeBytes": 6733,
+      "sha256": "05580f72527ac5d6b5a9d42377254d9a30ed04cd84fdf5ddc344d358ba96628e",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/PostCreate.tsx",
+      "sizeBytes": 5698,
+      "sha256": "df08ea355e9a7d2ef2be55acfed9ba6147834cc7048d4e660728eabd93400f7a",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/PostView.tsx",
+      "sizeBytes": 6055,
+      "sha256": "c6d0b76a3e77a5acf75a7c9a6744852cfb54268fec63461961c41aca93433d15",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/PricingPage.tsx",
+      "sizeBytes": 6068,
+      "sha256": "b13f021d6d9fcf63ce73eb31a84d7205ecd898a7857375440e5ee51093b39aca",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/PrivacyPage.tsx",
+      "sizeBytes": 9828,
+      "sha256": "edbe4bbaa379e06439ac26a8f6a5281f97cea9ba72c88b02cddbff6dc6cf3041",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/ProcessMonitor.tsx",
+      "sizeBytes": 223,
+      "sha256": "7735455bc357b89d2fa72b3d498c9cc10289a5b161846e4d44396b375274c7ef",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/Profile.tsx",
+      "sizeBytes": 15214,
+      "sha256": "19af96aad454737ca6c218d4634b1c542d22d702548f692ef537bf7f22b7b78d",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/Settings.tsx",
+      "sizeBytes": 15417,
+      "sha256": "d737782f20ceafa33697f71f4a29466712cf2972d7833bbe7b42df7ddc9de081",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/SharedSpaceFiles.tsx",
+      "sizeBytes": 21958,
+      "sha256": "fa0d993fc258fcb80c7589346501d3bf41d969dc7ff7ee63c0df02b46b52b2cb",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/Signup.tsx",
+      "sizeBytes": 19556,
+      "sha256": "a6b2d858952327854eab862c4ad6f9f3de645a0949535d92c0ac035fc406c920",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/SubjectHub.tsx",
+      "sizeBytes": 13118,
+      "sha256": "30251f8fbb9c0b929e9d46aa655e02580f9de2ff5eaeeb1cf04cf56611678ce3",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/UnifiedChat.tsx",
+      "sizeBytes": 29965,
+      "sha256": "137cafcd67d457c7ef8371f3fc813fa19eb4c4100c7a560b46e6e6c2bb4fdbee",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/UserPermissions.tsx",
+      "sizeBytes": 7388,
+      "sha256": "409246249029a22ec601a209e225a90ba602936552a204dc7099a2e847fb4c11",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/WorkflowBuilder.tsx",
+      "sizeBytes": 4755,
+      "sha256": "570b20b69fb9d41e6d12cce3d132b1726bfdaf07f43291a85c40f815ca37bd17",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/WorkflowEditor.tsx",
+      "sizeBytes": 14405,
+      "sha256": "a6f85f1fdaf9ef9f94c969b3d96dad54ddbe345c819bbd2bc2cc22812479b914",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/app/screens/WorkflowsList.tsx",
+      "sizeBytes": 25725,
+      "sha256": "61a71c19e064c1ebaf44ca20fadf1f819ef4c2a06e72a2428e6ce83cca74c950",
+      "category": "screen",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/imports/advanced-swarm-v2-schema.json",
+      "sizeBytes": 510,
+      "sha256": "fdcce46aa481d2cd3e7179a9e8c33a9cac03f8ce5f879ff7b62b7ab8120c1958",
+      "category": "imported artifact/schema",
+      "textExported": true,
+      "mimeType": "application/json"
+    },
+    {
+      "path": "src/imports/agent-memory-schema.json",
+      "sizeBytes": 507,
+      "sha256": "a5237b7d6ba4bc329fde19c3e2043a40982482c61fbf86a26aec0fe4ea4c7ff2",
+      "category": "imported artifact/schema",
+      "textExported": true,
+      "mimeType": "application/json"
+    },
+    {
+      "path": "src/imports/agent-task-graph-schema.json",
+      "sizeBytes": 509,
+      "sha256": "2cf9ada3d3b643997e8e709920f414ba8a3c1f25838de77987714f7b4b942947",
+      "category": "imported artifact/schema",
+      "textExported": true,
+      "mimeType": "application/json"
+    },
+    {
+      "path": "src/imports/ai-agent-schema.json",
+      "sizeBytes": 12225,
+      "sha256": "12aebd9c66d3bb9b42802f7abdf47603e94d52282c4b1f792e6a648577504ce2",
+      "category": "imported artifact/schema",
+      "textExported": true,
+      "mimeType": "application/json"
+    },
+    {
+      "path": "src/imports/airtable-node.ts",
+      "sizeBytes": 349,
+      "sha256": "b84cf096d4e7ef580ca9f558c160592630ef74ab1569d56444a6782913af0875",
+      "category": "imported artifact/schema",
+      "textExported": true,
+      "mimeType": "text/vnd.trolltech.linguist"
+    },
+    {
+      "path": "src/imports/airtable-schema.json",
+      "sizeBytes": 2984,
+      "sha256": "25ff2e76179026b7493954f293cf88978d777206f024e7ae36bcd7fffa159cd7",
+      "category": "imported artifact/schema",
+      "textExported": true,
+      "mimeType": "application/json"
+    },
+    {
+      "path": "src/imports/image-1.png",
+      "sizeBytes": 9148,
+      "sha256": "edb23e83f772401b2f697c22d2492e790f5d436cd48793d78f9fefd2d1457b07",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-10.png",
+      "sizeBytes": 175168,
+      "sha256": "11041d67e226a3876f83e7ed9bbdabe51e61182a2b13e4d888e0002baaf0878f",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-11.png",
+      "sizeBytes": 395856,
+      "sha256": "4bf34a8167bc373385c5eeef683591e0f608b303100e66b449ad37e21bd7a028",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-12.png",
+      "sizeBytes": 100629,
+      "sha256": "4fb8c68250370f0341aadab8d1280872f6a71c89f728e88f22bddcea8a9de0db",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-13.png",
+      "sizeBytes": 446977,
+      "sha256": "86cb58b35b7a2fc9649ad241c0c5ad68afeca978604f115f52c61b3c74d4f0a9",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-14.png",
+      "sizeBytes": 81111,
+      "sha256": "74222aad930dd9b7899a817762450ca1d1eaea521a681186b18ba9898bf4175a",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-15.png",
+      "sizeBytes": 40852,
+      "sha256": "ad92810c30c45044c3fd7800cd295b6af1b712979ec5b862f06bd3e887d7d0a3",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-16.png",
+      "sizeBytes": 433833,
+      "sha256": "11618df8d287870ce795da681d075f81ceb6f5516fa85391a27b4c789d352c6f",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-17.png",
+      "sizeBytes": 172428,
+      "sha256": "e0b737e44677363f035ad1e7c6e8ceb6e3b066e07b0db672b38a5136da65acdf",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-19.png",
+      "sizeBytes": 358121,
+      "sha256": "82fc00ecaa0d07a55481da8a684a04b2743d0d4bb16dd0e9418a9b71418d8037",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-2.png",
+      "sizeBytes": 34863,
+      "sha256": "9314f13bc325abb687cd9007bdd00a206f81cfef7d71959b704d07805b7964ea",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-20.png",
+      "sizeBytes": 191907,
+      "sha256": "9590326d455b642214049aa81a404c7a49ef8a246fd31da72e71e1818341fb8a",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-21.png",
+      "sizeBytes": 250519,
+      "sha256": "a818d9681db452a953e138e23107a7e59c482e0d04872cdd5af3c9116a4bae39",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-22.png",
+      "sizeBytes": 396898,
+      "sha256": "3724672fdc805ad3b59db3c90bd14ae976ff331cd645e321907aafae1ae75526",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-23.png",
+      "sizeBytes": 197799,
+      "sha256": "e96f6111fa84862a9d8a4f48302fd8100474d719aef52b74ff0c960af113150a",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-24.png",
+      "sizeBytes": 151604,
+      "sha256": "a7bc1d3447b314aca9f50a4bd2a43731a8dbbee112fbf56dc1e0dbc197e5515d",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-25.png",
+      "sizeBytes": 103135,
+      "sha256": "532abd0e1c5ca37854954f2e83824d1c696c3b5a7c3da5298a42e69cf24062b1",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-26.png",
+      "sizeBytes": 249811,
+      "sha256": "0c538bccb3d98d898d7d90950bced9c9d4a6571edca83a4fdd18911457046a95",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-27.png",
+      "sizeBytes": 57847,
+      "sha256": "a24febeea02ef1297be99524d3e3833af67d1afa36be27b4366b6f1fb7a997ba",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-28.png",
+      "sizeBytes": 135826,
+      "sha256": "11bfc4aa9f895e631d0b86abca22cb9fd9cca21d46c13fd02af9234c11cb423a",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-29.png",
+      "sizeBytes": 100723,
+      "sha256": "780e5820b8769152d6c8f6ee5e1500dfb459b382a47781cdebbef19e74e2176a",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-3.png",
+      "sizeBytes": 58229,
+      "sha256": "7029c645370e56b766636ab4a4563eb6b25d905afd95f5f6f0818c7b7a2c544f",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-30.png",
+      "sizeBytes": 214792,
+      "sha256": "f222d64288ea0af886b6f61b52c4df25ef155b1b71080ec740b69ee987e12685",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-31.png",
+      "sizeBytes": 20971,
+      "sha256": "620fc7967f5b28baf14d7917f0a3d87ad4ebdba35acec75b7d4b7760ccbddff7",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-32.png",
+      "sizeBytes": 353352,
+      "sha256": "a898bf6a75fa604b3cdd77032d6be9881bb18f4faf533385078acab29deab7e9",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-33.png",
+      "sizeBytes": 1889409,
+      "sha256": "a7575d4793e59c123576cc1f97f5bda59a10a9dc59853cb0adaa69f991e1f85f",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-34.png",
+      "sizeBytes": 247018,
+      "sha256": "fcfd679195b2c8ace2b2c850d91ff32f4cf7032628b9279be509527e019359a1",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-35.png",
+      "sizeBytes": 184327,
+      "sha256": "59bd0f0744fc6a3c45c0b9fae6517b61d06f42785cc4c7d1212c06909b87877e",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-36.png",
+      "sizeBytes": 245379,
+      "sha256": "1ff04f61624a1032356cccb9a1071d8ccc54be2381688d30d24b046dc60ae5c8",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-37.png",
+      "sizeBytes": 447819,
+      "sha256": "cb137754420decab3e4bbf943a9561340830037ab39bbf92cccac597985d8cbc",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-38.png",
+      "sizeBytes": 114790,
+      "sha256": "94e1ab757f6ff04fe3ccaf61727637f6d60e64f5337bd536a9cc062fe90f1629",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-39.png",
+      "sizeBytes": 2710789,
+      "sha256": "bc9c5db064daec2c94242c6cac3cca8bbbd8ff31d6e07eefcf379cfe1a1ae35c",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-4.png",
+      "sizeBytes": 65572,
+      "sha256": "f7c967473b9eea60f61e52dd8e501cd867756e22642963b8e3081576070d2dc7",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-40.png",
+      "sizeBytes": 63067,
+      "sha256": "78471be2361bd0445b7b6b8d376f6e0adae72ede231cce8fa17248796d2c55c2",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-41.png",
+      "sizeBytes": 64184,
+      "sha256": "b439b77e4552f593f235448f54f2f81bd1a44655980d5d2d4078a3776cf70ca9",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-42.png",
+      "sizeBytes": 427463,
+      "sha256": "ed7335e7c794f3024bf396f0b5441fbd39074eff0e5902ce71345adb019e3c03",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-43.png",
+      "sizeBytes": 273600,
+      "sha256": "509d496a2b6a269091eb9352157e9e70768a0ca3b50cae0ef09a88a8254f9177",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-44.png",
+      "sizeBytes": 120334,
+      "sha256": "0745e03e4daef3555625bd7729944a283fbd025ccca0c4a473bf8bdb7c4b75d6",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-45.png",
+      "sizeBytes": 79011,
+      "sha256": "714d63e237fb9f8d27cb400d13ba1a2f3912b1cc4bd93edfcfbf9e365bca4e13",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-5.png",
+      "sizeBytes": 153681,
+      "sha256": "23b60b3e4404db3914ab953a77a0357d309d0b078decc9a34d71977261591d95",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-6.png",
+      "sizeBytes": 143532,
+      "sha256": "b17055783f92780a534820484dc636e081dbd5e80a4c97596e1ada78a5ea205a",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-7.png",
+      "sizeBytes": 65194,
+      "sha256": "2937a3024aa615028aa0fd58cc4273b92e7bd00c33056163744dddd2272d3cba",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-8.png",
+      "sizeBytes": 1500145,
+      "sha256": "11033b818d9e556f0362dec11912d203d2245e2122e6ad1b3b6fd140a925bef4",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image-9.png",
+      "sizeBytes": 59318,
+      "sha256": "d2e9c9a7a4e83c9fa769c764f39c0aaeaff04a5f9ef78da77af6e7e5efb998c7",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/image.png",
+      "sizeBytes": 29892,
+      "sha256": "691edc3245db71f88698e0a96f869d0dfa22f935fa4f12565fb0f2b4de980548",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/merge-schema.json",
+      "sizeBytes": 5502,
+      "sha256": "aa1d19ce85e1edeeaea0a32b854fa41d0628ffe4cffa9afd3d296c97394afb27",
+      "category": "imported artifact/schema",
+      "textExported": true,
+      "mimeType": "application/json"
+    },
+    {
+      "path": "src/imports/Normal_User_Process_Viewer-1.png",
+      "sizeBytes": 1603143,
+      "sha256": "0ca4fee5bfb83f37adc891b8d83cabacdcb7f268be006322eafe16a5f325c7ef",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/Normal_User_Process_Viewer-2.png",
+      "sizeBytes": 1603143,
+      "sha256": "0ca4fee5bfb83f37adc891b8d83cabacdcb7f268be006322eafe16a5f325c7ef",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/Normal_User_Process_Viewer-3.png",
+      "sizeBytes": 1603143,
+      "sha256": "0ca4fee5bfb83f37adc891b8d83cabacdcb7f268be006322eafe16a5f325c7ef",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/Normal_User_Process_Viewer-4.png",
+      "sizeBytes": 1603143,
+      "sha256": "0ca4fee5bfb83f37adc891b8d83cabacdcb7f268be006322eafe16a5f325c7ef",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/Normal_User_Process_Viewer.png",
+      "sizeBytes": 1603143,
+      "sha256": "0ca4fee5bfb83f37adc891b8d83cabacdcb7f268be006322eafe16a5f325c7ef",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/process_monitor_root_normal_light_dark_final-1.html",
+      "sizeBytes": 116085,
+      "sha256": "ff0c6823a47253ef04e5dca130b6162917b63476ff8480e83a852086017a22fb",
+      "category": "imported artifact/schema",
+      "textExported": true,
+      "mimeType": "text/html"
+    },
+    {
+      "path": "src/imports/process_monitor_root_normal_light_dark_final-2.html",
+      "sizeBytes": 116085,
+      "sha256": "ff0c6823a47253ef04e5dca130b6162917b63476ff8480e83a852086017a22fb",
+      "category": "imported artifact/schema",
+      "textExported": true,
+      "mimeType": "text/html"
+    },
+    {
+      "path": "src/imports/process_monitor_root_normal_light_dark_final.html",
+      "sizeBytes": 116085,
+      "sha256": "ff0c6823a47253ef04e5dca130b6162917b63476ff8480e83a852086017a22fb",
+      "category": "imported artifact/schema",
+      "textExported": true,
+      "mimeType": "text/html"
+    },
+    {
+      "path": "src/imports/README.md",
+      "sizeBytes": 207,
+      "sha256": "1a6e6a5b022d9dedd11b3fd9d319f3fb3532efd11603af4a6b34c3b48e78c14b",
+      "category": "imported artifact/schema",
+      "textExported": true,
+      "mimeType": "text/markdown"
+    },
+    {
+      "path": "src/imports/Root_User___Org_Admin_Dashboard-1.png",
+      "sizeBytes": 1516052,
+      "sha256": "be57f1e26f2cb7fc839d2b89b6abac60c8099c5f2e54e1e5435d0ed427019b18",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/Root_User___Org_Admin_Dashboard-2.png",
+      "sizeBytes": 1516052,
+      "sha256": "be57f1e26f2cb7fc839d2b89b6abac60c8099c5f2e54e1e5435d0ed427019b18",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/Root_User___Org_Admin_Dashboard-3.png",
+      "sizeBytes": 1516052,
+      "sha256": "be57f1e26f2cb7fc839d2b89b6abac60c8099c5f2e54e1e5435d0ed427019b18",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/Root_User___Org_Admin_Dashboard-4.png",
+      "sizeBytes": 1516052,
+      "sha256": "be57f1e26f2cb7fc839d2b89b6abac60c8099c5f2e54e1e5435d0ed427019b18",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/Root_User___Org_Admin_Dashboard.png",
+      "sizeBytes": 1516052,
+      "sha256": "be57f1e26f2cb7fc839d2b89b6abac60c8099c5f2e54e1e5435d0ed427019b18",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/Screenshot_2026-04-22_at_11.10.18 PM.png",
+      "sizeBytes": 437567,
+      "sha256": "52362e7e8486e202de0f07c9534f0e82030aeb1f8456b72cfd004717faf36437",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/Screenshot_2026-04-22_at_11.12.00 PM.png",
+      "sizeBytes": 631703,
+      "sha256": "60027942da32d317a04da7e704590d6058a02313582d71c40885d7e25a105f91",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/Screenshot_2026-04-22_at_11.12.12 PM.png",
+      "sizeBytes": 414145,
+      "sha256": "d6fbef757dcdd3ddda0cf3bd04df4fa65a8161d835020fc0c7e2220fb0b1d086",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/Screenshot_2026-04-22_at_11.12.31 PM.png",
+      "sizeBytes": 738285,
+      "sha256": "a9f5c5d1fbf42607d3a693775b823494b56b933d8d1f474c5254a679725e1e89",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/Screenshot_2026-05-10_at_6.04.38_PM.png",
+      "sizeBytes": 155496,
+      "sha256": "c9fc07315c41082759397ae700dc1fbc0274e2801144288d7c2acf87e83ac3a0",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/Screenshot_2026-05-10_at_6.04.50_PM.png",
+      "sizeBytes": 433485,
+      "sha256": "2d182503890e7faa5cf5a79d04b59c2ac31b6fa9e74441e08ee01136557db5cb",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/Screenshot_2026-05-10_at_6.04.59_PM.png",
+      "sizeBytes": 172031,
+      "sha256": "996c7cb5e5cfb4c263cf19458136bc39ec6c6b1946844cdf85e84963b8ce23f0",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/Screenshot_2026-05-10_at_6.05.06_PM.png",
+      "sizeBytes": 195477,
+      "sha256": "30cd20ee5a17fbf8036beabe025d585e0aa833774d06bd5892e743bdc940f953",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/png"
+    },
+    {
+      "path": "src/imports/WhatsApp_Image_2026-05-08_at_17.33.31.jpeg",
+      "sizeBytes": 18006,
+      "sha256": "66e858876b3d04d5e37e20ea6894dc2b36d46cefc9bfdc3c1ccfa11b32512c63",
+      "category": "imported artifact/schema",
+      "textExported": false,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "path": "src/imports/worker.ts",
+      "sizeBytes": 3670,
+      "sha256": "8d350972751af8bd6d5245d4c12435f6a073dcff184812a8d386034a92cadfa4",
+      "category": "imported artifact/schema",
+      "textExported": true,
+      "mimeType": "text/vnd.trolltech.linguist"
+    },
+    {
+      "path": "src/main.tsx",
+      "sizeBytes": 183,
+      "sha256": "31534914ad17a147a266479b0b43fa771e6b8b9e79c8d099333dbec3f73e547c",
+      "category": "support file",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    },
+    {
+      "path": "src/styles/animations.css",
+      "sizeBytes": 2497,
+      "sha256": "947453caabf753662f81a2f80da912fe8377f67d5b0a0f8fc3f130b5308982a8",
+      "category": "style/theme",
+      "textExported": true,
+      "mimeType": "text/css"
+    },
+    {
+      "path": "src/styles/fonts.css",
+      "sizeBytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "category": "style/theme",
+      "textExported": true,
+      "mimeType": "text/css"
+    },
+    {
+      "path": "src/styles/globals.css",
+      "sizeBytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "category": "style/theme",
+      "textExported": true,
+      "mimeType": "text/css"
+    },
+    {
+      "path": "src/styles/index.css",
+      "sizeBytes": 100,
+      "sha256": "d453b0b4ebd66ca2dcbcb0f0fea213c1f1b3f6bf864633a17af9850ec16682a5",
+      "category": "style/theme",
+      "textExported": true,
+      "mimeType": "text/css"
+    },
+    {
+      "path": "src/styles/tailwind.css",
+      "sizeBytes": 98,
+      "sha256": "c7dddb734b0c9e3cfaa6698cd725f018b8a5e41f847ae42fd9b0269d44ee9ff4",
+      "category": "style/theme",
+      "textExported": true,
+      "mimeType": "text/css"
+    },
+    {
+      "path": "src/styles/theme.css",
+      "sizeBytes": 5051,
+      "sha256": "98eca6561f3c9e6479d414ce7471666c73effc692041668a34b26d18cf864a3c",
+      "category": "style/theme",
+      "textExported": true,
+      "mimeType": "text/css"
+    },
+    {
+      "path": "vite.config.ts",
+      "sizeBytes": 926,
+      "sha256": "ee76dd1dd0bf18ccc1ef456cd6fdedf3280aaeb5c15633d0104c2601dff732e7",
+      "category": "project config",
+      "textExported": true,
+      "mimeType": "text/vnd.trolltech.linguist"
+    },
+    {
+      "path": "yarn.lock",
+      "sizeBytes": 124866,
+      "sha256": "650f5a89cf107b086db579d54c673fa6a270d568521e6bcec3b87cffd119f313",
+      "category": "support file",
+      "textExported": true,
+      "mimeType": "application/octet-stream"
+    }
+  ]
+}

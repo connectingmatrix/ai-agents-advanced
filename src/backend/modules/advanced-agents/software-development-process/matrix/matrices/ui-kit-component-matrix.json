@@ -1,0 +1,511 @@
+{
+  "source": "UI_KIT_SOURCE_ZIP plus advanced/ui-kit catalog",
+  "components": [
+    {
+      "componentName": "Root",
+      "filePath": "src/app/components/Root.tsx",
+      "exportName": "Root",
+      "category": "layout",
+      "requiredProps": [],
+      "supportedStates": [
+        "loading",
+        "loaded",
+        "error"
+      ],
+      "primaryUseCase": "Root sanctioned UI kit capability",
+      "recommendedPatterns": [
+        "CRUD_TABLE_MODAL"
+      ],
+      "antiPatterns": [
+        "Do not render without wiring required by its pattern."
+      ],
+      "testingNotes": [
+        "Render state and connected behavior."
+      ]
+    },
+    {
+      "componentName": "Sidebar",
+      "filePath": "src/app/components/Sidebar.tsx",
+      "exportName": "Sidebar",
+      "category": "navigation",
+      "requiredProps": [],
+      "supportedStates": [
+        "loading",
+        "loaded",
+        "error"
+      ],
+      "primaryUseCase": "Sidebar sanctioned UI kit capability",
+      "recommendedPatterns": [
+        "CRUD_TABLE_MODAL"
+      ],
+      "antiPatterns": [
+        "Do not render without wiring required by its pattern."
+      ],
+      "testingNotes": [
+        "Render state and connected behavior."
+      ]
+    },
+    {
+      "componentName": "Card",
+      "filePath": "src/app/components/Card.tsx",
+      "exportName": "Card",
+      "category": "data-display",
+      "requiredProps": [],
+      "supportedStates": [
+        "loading",
+        "loaded",
+        "error"
+      ],
+      "primaryUseCase": "Card sanctioned UI kit capability",
+      "recommendedPatterns": [
+        "CRUD_TABLE_MODAL"
+      ],
+      "antiPatterns": [
+        "Do not render without wiring required by its pattern."
+      ],
+      "testingNotes": [
+        "Render state and connected behavior."
+      ]
+    },
+    {
+      "componentName": "EnhancedDataTable",
+      "filePath": "src/app/components/EnhancedDataTable.tsx",
+      "exportName": "EnhancedDataTable",
+      "category": "table",
+      "requiredProps": [],
+      "supportedStates": [
+        "loading",
+        "loaded",
+        "error"
+      ],
+      "primaryUseCase": "EnhancedDataTable sanctioned UI kit capability",
+      "recommendedPatterns": [
+        "CRUD_TABLE_MODAL"
+      ],
+      "antiPatterns": [
+        "Do not render without wiring required by its pattern."
+      ],
+      "testingNotes": [
+        "Render state and connected behavior."
+      ]
+    },
+    {
+      "componentName": "Button",
+      "filePath": "src/app/components/Button.tsx",
+      "exportName": "Button",
+      "category": "crud",
+      "requiredProps": [],
+      "supportedStates": [
+        "loading",
+        "loaded",
+        "error"
+      ],
+      "primaryUseCase": "Button sanctioned UI kit capability",
+      "recommendedPatterns": [
+        "CRUD_TABLE_MODAL"
+      ],
+      "antiPatterns": [
+        "Do not render without wiring required by its pattern."
+      ],
+      "testingNotes": [
+        "Render state and connected behavior."
+      ]
+    },
+    {
+      "componentName": "FormField",
+      "filePath": "src/app/components/FormField.tsx",
+      "exportName": "FormField",
+      "category": "form",
+      "requiredProps": [],
+      "supportedStates": [
+        "loading",
+        "loaded",
+        "error"
+      ],
+      "primaryUseCase": "FormField sanctioned UI kit capability",
+      "recommendedPatterns": [
+        "CRUD_TABLE_MODAL"
+      ],
+      "antiPatterns": [
+        "Do not render without wiring required by its pattern."
+      ],
+      "testingNotes": [
+        "Render state and connected behavior."
+      ]
+    },
+    {
+      "componentName": "CreateModal",
+      "filePath": "src/app/components/CreateModal.tsx",
+      "exportName": "CreateModal",
+      "category": "modal",
+      "requiredProps": [],
+      "supportedStates": [
+        "loading",
+        "loaded",
+        "error"
+      ],
+      "primaryUseCase": "CreateModal sanctioned UI kit capability",
+      "recommendedPatterns": [
+        "CRUD_TABLE_MODAL"
+      ],
+      "antiPatterns": [
+        "Do not render without wiring required by its pattern."
+      ],
+      "testingNotes": [
+        "Render state and connected behavior."
+      ]
+    },
+    {
+      "componentName": "Toast",
+      "filePath": "src/app/components/Toast.tsx",
+      "exportName": "Toast",
+      "category": "feedback",
+      "requiredProps": [],
+      "supportedStates": [
+        "loading",
+        "loaded",
+        "error"
+      ],
+      "primaryUseCase": "Toast sanctioned UI kit capability",
+      "recommendedPatterns": [
+        "CRUD_TABLE_MODAL"
+      ],
+      "antiPatterns": [
+        "Do not render without wiring required by its pattern."
+      ],
+      "testingNotes": [
+        "Render state and connected behavior."
+      ]
+    },
+    {
+      "componentName": "PermissionsMatrix",
+      "filePath": "src/app/components/PermissionsMatrix.tsx",
+      "exportName": "PermissionsMatrix",
+      "category": "permission",
+      "requiredProps": [],
+      "supportedStates": [
+        "loading",
+        "loaded",
+        "error"
+      ],
+      "primaryUseCase": "PermissionsMatrix sanctioned UI kit capability",
+      "recommendedPatterns": [
+        "CRUD_TABLE_MODAL"
+      ],
+      "antiPatterns": [
+        "Do not render without wiring required by its pattern."
+      ],
+      "testingNotes": [
+        "Render state and connected behavior."
+      ]
+    },
+    {
+      "componentName": "FileUploader",
+      "filePath": "src/app/components/FileUploader.tsx",
+      "exportName": "FileUploader",
+      "category": "file",
+      "requiredProps": [],
+      "supportedStates": [
+        "loading",
+        "loaded",
+        "error"
+      ],
+      "primaryUseCase": "FileUploader sanctioned UI kit capability",
+      "recommendedPatterns": [
+        "CRUD_TABLE_MODAL"
+      ],
+      "antiPatterns": [
+        "Do not render without wiring required by its pattern."
+      ],
+      "testingNotes": [
+        "Render state and connected behavior."
+      ]
+    },
+    {
+      "componentName": "TreeView",
+      "filePath": "src/app/components/TreeView.tsx",
+      "exportName": "TreeView",
+      "category": "tree",
+      "requiredProps": [],
+      "supportedStates": [
+        "loading",
+        "loaded",
+        "error"
+      ],
+      "primaryUseCase": "TreeView sanctioned UI kit capability",
+      "recommendedPatterns": [
+        "CRUD_TABLE_MODAL"
+      ],
+      "antiPatterns": [
+        "Do not render without wiring required by its pattern."
+      ],
+      "testingNotes": [
+        "Render state and connected behavior."
+      ]
+    },
+    {
+      "componentName": "ChatMessage",
+      "filePath": "src/app/components/ChatMessage.tsx",
+      "exportName": "ChatMessage",
+      "category": "chat",
+      "requiredProps": [],
+      "supportedStates": [
+        "loading",
+        "loaded",
+        "error"
+      ],
+      "primaryUseCase": "ChatMessage sanctioned UI kit capability",
+      "recommendedPatterns": [
+        "CRUD_TABLE_MODAL"
+      ],
+      "antiPatterns": [
+        "Do not render without wiring required by its pattern."
+      ],
+      "testingNotes": [
+        "Render state and connected behavior."
+      ]
+    },
+    {
+      "componentName": "MetricCard",
+      "filePath": "src/app/components/MetricCard.tsx",
+      "exportName": "MetricCard",
+      "category": "monitoring",
+      "requiredProps": [],
+      "supportedStates": [
+        "loading",
+        "loaded",
+        "error"
+      ],
+      "primaryUseCase": "MetricCard sanctioned UI kit capability",
+      "recommendedPatterns": [
+        "CRUD_TABLE_MODAL"
+      ],
+      "antiPatterns": [
+        "Do not render without wiring required by its pattern."
+      ],
+      "testingNotes": [
+        "Render state and connected behavior."
+      ]
+    },
+    {
+      "componentName": "SettingsPopover",
+      "filePath": "src/app/components/SettingsPopover.tsx",
+      "exportName": "SettingsPopover",
+      "category": "settings",
+      "requiredProps": [],
+      "supportedStates": [
+        "loading",
+        "loaded",
+        "error"
+      ],
+      "primaryUseCase": "SettingsPopover sanctioned UI kit capability",
+      "recommendedPatterns": [
+        "CRUD_TABLE_MODAL"
+      ],
+      "antiPatterns": [
+        "Do not render without wiring required by its pattern."
+      ],
+      "testingNotes": [
+        "Render state and connected behavior."
+      ]
+    },
+    {
+      "componentName": "AdminDashboard",
+      "filePath": "src/app/components/AdminDashboard.tsx",
+      "exportName": "AdminDashboard",
+      "category": "admin",
+      "requiredProps": [],
+      "supportedStates": [
+        "loading",
+        "loaded",
+        "error"
+      ],
+      "primaryUseCase": "AdminDashboard sanctioned UI kit capability",
+      "recommendedPatterns": [
+        "CRUD_TABLE_MODAL"
+      ],
+      "antiPatterns": [
+        "Do not render without wiring required by its pattern."
+      ],
+      "testingNotes": [
+        "Render state and connected behavior."
+      ]
+    },
+    {
+      "componentName": "LoadingState",
+      "filePath": "src/app/components/LoadingState.tsx",
+      "exportName": "LoadingState",
+      "category": "state",
+      "requiredProps": [],
+      "supportedStates": [
+        "loading",
+        "loaded",
+        "error"
+      ],
+      "primaryUseCase": "LoadingState sanctioned UI kit capability",
+      "recommendedPatterns": [
+        "CRUD_TABLE_MODAL"
+      ],
+      "antiPatterns": [
+        "Do not render without wiring required by its pattern."
+      ],
+      "testingNotes": [
+        "Render state and connected behavior."
+      ]
+    },
+    {
+      "componentName": "EmptyState",
+      "filePath": "src/app/components/EmptyState.tsx",
+      "exportName": "EmptyState",
+      "category": "state",
+      "requiredProps": [],
+      "supportedStates": [
+        "loading",
+        "loaded",
+        "error"
+      ],
+      "primaryUseCase": "EmptyState sanctioned UI kit capability",
+      "recommendedPatterns": [
+        "CRUD_TABLE_MODAL"
+      ],
+      "antiPatterns": [
+        "Do not render without wiring required by its pattern."
+      ],
+      "testingNotes": [
+        "Render state and connected behavior."
+      ]
+    },
+    {
+      "componentName": "ErrorState",
+      "filePath": "src/app/components/ErrorState.tsx",
+      "exportName": "ErrorState",
+      "category": "state",
+      "requiredProps": [],
+      "supportedStates": [
+        "loading",
+        "loaded",
+        "error"
+      ],
+      "primaryUseCase": "ErrorState sanctioned UI kit capability",
+      "recommendedPatterns": [
+        "CRUD_TABLE_MODAL"
+      ],
+      "antiPatterns": [
+        "Do not render without wiring required by its pattern."
+      ],
+      "testingNotes": [
+        "Render state and connected behavior."
+      ]
+    },
+    {
+      "componentName": "ConfirmDialog",
+      "filePath": "src/app/components/ConfirmDialog.tsx",
+      "exportName": "ConfirmDialog",
+      "category": "modal",
+      "requiredProps": [],
+      "supportedStates": [
+        "loading",
+        "loaded",
+        "error"
+      ],
+      "primaryUseCase": "ConfirmDialog sanctioned UI kit capability",
+      "recommendedPatterns": [
+        "CRUD_TABLE_MODAL"
+      ],
+      "antiPatterns": [
+        "Do not render without wiring required by its pattern."
+      ],
+      "testingNotes": [
+        "Render state and connected behavior."
+      ]
+    },
+    {
+      "componentName": "SparklineChart",
+      "filePath": "src/app/components/SparklineChart.tsx",
+      "exportName": "SparklineChart",
+      "category": "monitoring",
+      "requiredProps": [],
+      "supportedStates": [
+        "loading",
+        "loaded",
+        "error"
+      ],
+      "primaryUseCase": "SparklineChart sanctioned UI kit capability",
+      "recommendedPatterns": [
+        "CRUD_TABLE_MODAL"
+      ],
+      "antiPatterns": [
+        "Do not render without wiring required by its pattern."
+      ],
+      "testingNotes": [
+        "Render state and connected behavior."
+      ]
+    },
+    {
+      "componentName": "FilterBar",
+      "filePath": "src/app/components/FilterBar.tsx",
+      "exportName": "FilterBar",
+      "category": "table",
+      "requiredProps": [],
+      "supportedStates": [
+        "loading",
+        "loaded",
+        "error"
+      ],
+      "primaryUseCase": "FilterBar sanctioned UI kit capability",
+      "recommendedPatterns": [
+        "CRUD_TABLE_MODAL"
+      ],
+      "antiPatterns": [
+        "Do not render without wiring required by its pattern."
+      ],
+      "testingNotes": [
+        "Render state and connected behavior."
+      ]
+    },
+    {
+      "componentName": "FileViewer",
+      "filePath": "src/app/components/FileViewer.tsx",
+      "exportName": "FileViewer",
+      "category": "file",
+      "requiredProps": [],
+      "supportedStates": [
+        "loading",
+        "loaded",
+        "error"
+      ],
+      "primaryUseCase": "FileViewer sanctioned UI kit capability",
+      "recommendedPatterns": [
+        "CRUD_TABLE_MODAL"
+      ],
+      "antiPatterns": [
+        "Do not render without wiring required by its pattern."
+      ],
+      "testingNotes": [
+        "Render state and connected behavior."
+      ]
+    },
+    {
+      "componentName": "RealtimeTable",
+      "filePath": "src/app/components/RealtimeTable.tsx",
+      "exportName": "RealtimeTable",
+      "category": "table",
+      "requiredProps": [],
+      "supportedStates": [
+        "loading",
+        "loaded",
+        "error"
+      ],
+      "primaryUseCase": "RealtimeTable sanctioned UI kit capability",
+      "recommendedPatterns": [
+        "CRUD_TABLE_MODAL"
+      ],
+      "antiPatterns": [
+        "Do not render without wiring required by its pattern."
+      ],
+      "testingNotes": [
+        "Render state and connected behavior."
+      ]
+    }
+  ]
+}

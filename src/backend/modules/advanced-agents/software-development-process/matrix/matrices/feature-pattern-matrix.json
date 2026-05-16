@@ -1,0 +1,740 @@
+{
+  "patterns": [
+    {
+      "patternId": "AUTH_EMAIL_PASSWORD",
+      "patternName": "auth email password",
+      "triggerWords": [
+        "auth_email_password"
+      ],
+      "requiredComponents": [
+        "Root",
+        "Button",
+        "Card",
+        "Toast"
+      ],
+      "requiredBackendPieces": [
+        "contract",
+        "validation",
+        "permission guard"
+      ],
+      "requiredTests": [
+        "route renders",
+        "backend contract",
+        "permission failure"
+      ]
+    },
+    {
+      "patternId": "AUTH_INVITE_ONLY",
+      "patternName": "auth invite only",
+      "triggerWords": [
+        "auth_invite_only"
+      ],
+      "requiredComponents": [
+        "Root",
+        "Button",
+        "Card",
+        "Toast"
+      ],
+      "requiredBackendPieces": [
+        "contract",
+        "validation",
+        "permission guard"
+      ],
+      "requiredTests": [
+        "route renders",
+        "backend contract",
+        "permission failure"
+      ]
+    },
+    {
+      "patternId": "AUTH_ROLE_BASED_DASHBOARD",
+      "patternName": "auth role based dashboard",
+      "triggerWords": [
+        "auth_role_based_dashboard"
+      ],
+      "requiredComponents": [
+        "Root",
+        "Button",
+        "Card",
+        "Toast"
+      ],
+      "requiredBackendPieces": [
+        "contract",
+        "validation",
+        "permission guard"
+      ],
+      "requiredTests": [
+        "route renders",
+        "backend contract",
+        "permission failure"
+      ]
+    },
+    {
+      "patternId": "AUTH_SESSION_CURRENT_USER",
+      "patternName": "auth session current user",
+      "triggerWords": [
+        "auth_session_current_user"
+      ],
+      "requiredComponents": [
+        "Root",
+        "Button",
+        "Card",
+        "Toast"
+      ],
+      "requiredBackendPieces": [
+        "contract",
+        "validation",
+        "permission guard"
+      ],
+      "requiredTests": [
+        "route renders",
+        "backend contract",
+        "permission failure"
+      ]
+    },
+    {
+      "patternId": "CRUD_TABLE_MODAL",
+      "patternName": "crud table modal",
+      "triggerWords": [
+        "crud_table_modal"
+      ],
+      "requiredComponents": [
+        "Root",
+        "Button",
+        "Card",
+        "Toast"
+      ],
+      "requiredBackendPieces": [
+        "contract",
+        "validation",
+        "permission guard"
+      ],
+      "requiredTests": [
+        "route renders",
+        "backend contract",
+        "permission failure"
+      ]
+    },
+    {
+      "patternId": "CRUD_TABLE_DRAWER",
+      "patternName": "crud table drawer",
+      "triggerWords": [
+        "crud_table_drawer"
+      ],
+      "requiredComponents": [
+        "Root",
+        "Button",
+        "Card",
+        "Toast"
+      ],
+      "requiredBackendPieces": [
+        "contract",
+        "validation",
+        "permission guard"
+      ],
+      "requiredTests": [
+        "route renders",
+        "backend contract",
+        "permission failure"
+      ]
+    },
+    {
+      "patternId": "CRUD_DETAIL_PAGE",
+      "patternName": "crud detail page",
+      "triggerWords": [
+        "crud_detail_page"
+      ],
+      "requiredComponents": [
+        "Root",
+        "Button",
+        "Card",
+        "Toast"
+      ],
+      "requiredBackendPieces": [
+        "contract",
+        "validation",
+        "permission guard"
+      ],
+      "requiredTests": [
+        "route renders",
+        "backend contract",
+        "permission failure"
+      ]
+    },
+    {
+      "patternId": "CRUD_CREATE_EDIT_MODAL",
+      "patternName": "crud create edit modal",
+      "triggerWords": [
+        "crud_create_edit_modal"
+      ],
+      "requiredComponents": [
+        "Root",
+        "Button",
+        "Card",
+        "Toast"
+      ],
+      "requiredBackendPieces": [
+        "contract",
+        "validation",
+        "permission guard"
+      ],
+      "requiredTests": [
+        "route renders",
+        "backend contract",
+        "permission failure"
+      ]
+    },
+    {
+      "patternId": "CRUD_CREATE_EDIT_PAGE",
+      "patternName": "crud create edit page",
+      "triggerWords": [
+        "crud_create_edit_page"
+      ],
+      "requiredComponents": [
+        "Root",
+        "Button",
+        "Card",
+        "Toast"
+      ],
+      "requiredBackendPieces": [
+        "contract",
+        "validation",
+        "permission guard"
+      ],
+      "requiredTests": [
+        "route renders",
+        "backend contract",
+        "permission failure"
+      ]
+    },
+    {
+      "patternId": "ADMIN_ONLY_MANAGEMENT",
+      "patternName": "admin only management",
+      "triggerWords": [
+        "admin_only_management"
+      ],
+      "requiredComponents": [
+        "Root",
+        "Button",
+        "Card",
+        "Toast"
+      ],
+      "requiredBackendPieces": [
+        "contract",
+        "validation",
+        "permission guard"
+      ],
+      "requiredTests": [
+        "route renders",
+        "backend contract",
+        "permission failure"
+      ]
+    },
+    {
+      "patternId": "SUPER_ADMIN_ONLY_MANAGEMENT",
+      "patternName": "super admin only management",
+      "triggerWords": [
+        "super_admin_only_management"
+      ],
+      "requiredComponents": [
+        "Root",
+        "Button",
+        "Card",
+        "Toast"
+      ],
+      "requiredBackendPieces": [
+        "contract",
+        "validation",
+        "permission guard"
+      ],
+      "requiredTests": [
+        "route renders",
+        "backend contract",
+        "permission failure"
+      ]
+    },
+    {
+      "patternId": "RBAC_PERMISSION_MATRIX",
+      "patternName": "rbac permission matrix",
+      "triggerWords": [
+        "rbac_permission_matrix"
+      ],
+      "requiredComponents": [
+        "Root",
+        "Button",
+        "Card",
+        "Toast"
+      ],
+      "requiredBackendPieces": [
+        "contract",
+        "validation",
+        "permission guard"
+      ],
+      "requiredTests": [
+        "route renders",
+        "backend contract",
+        "permission failure"
+      ]
+    },
+    {
+      "patternId": "USER_MANAGEMENT",
+      "patternName": "user management",
+      "triggerWords": [
+        "user_management"
+      ],
+      "requiredComponents": [
+        "Root",
+        "Button",
+        "Card",
+        "Toast"
+      ],
+      "requiredBackendPieces": [
+        "contract",
+        "validation",
+        "permission guard"
+      ],
+      "requiredTests": [
+        "route renders",
+        "backend contract",
+        "permission failure"
+      ]
+    },
+    {
+      "patternId": "ORGANIZATION_MANAGEMENT",
+      "patternName": "organization management",
+      "triggerWords": [
+        "organization_management"
+      ],
+      "requiredComponents": [
+        "Root",
+        "Button",
+        "Card",
+        "Toast"
+      ],
+      "requiredBackendPieces": [
+        "contract",
+        "validation",
+        "permission guard"
+      ],
+      "requiredTests": [
+        "route renders",
+        "backend contract",
+        "permission failure"
+      ]
+    },
+    {
+      "patternId": "SETTINGS_PAGE",
+      "patternName": "settings page",
+      "triggerWords": [
+        "settings_page"
+      ],
+      "requiredComponents": [
+        "Root",
+        "Button",
+        "Card",
+        "Toast"
+      ],
+      "requiredBackendPieces": [
+        "contract",
+        "validation",
+        "permission guard"
+      ],
+      "requiredTests": [
+        "route renders",
+        "backend contract",
+        "permission failure"
+      ]
+    },
+    {
+      "patternId": "PROFILE_PAGE",
+      "patternName": "profile page",
+      "triggerWords": [
+        "profile_page"
+      ],
+      "requiredComponents": [
+        "Root",
+        "Button",
+        "Card",
+        "Toast"
+      ],
+      "requiredBackendPieces": [
+        "contract",
+        "validation",
+        "permission guard"
+      ],
+      "requiredTests": [
+        "route renders",
+        "backend contract",
+        "permission failure"
+      ]
+    },
+    {
+      "patternId": "FILE_UPLOAD_MANAGER",
+      "patternName": "file upload manager",
+      "triggerWords": [
+        "file_upload_manager"
+      ],
+      "requiredComponents": [
+        "Root",
+        "Button",
+        "Card",
+        "Toast"
+      ],
+      "requiredBackendPieces": [
+        "contract",
+        "validation",
+        "permission guard"
+      ],
+      "requiredTests": [
+        "route renders",
+        "backend contract",
+        "permission failure"
+      ]
+    },
+    {
+      "patternId": "FILE_VIEWER_PAGE",
+      "patternName": "file viewer page",
+      "triggerWords": [
+        "file_viewer_page"
+      ],
+      "requiredComponents": [
+        "Root",
+        "Button",
+        "Card",
+        "Toast"
+      ],
+      "requiredBackendPieces": [
+        "contract",
+        "validation",
+        "permission guard"
+      ],
+      "requiredTests": [
+        "route renders",
+        "backend contract",
+        "permission failure"
+      ]
+    },
+    {
+      "patternId": "TREE_HIERARCHY_MANAGER",
+      "patternName": "tree hierarchy manager",
+      "triggerWords": [
+        "tree_hierarchy_manager"
+      ],
+      "requiredComponents": [
+        "Root",
+        "Button",
+        "Card",
+        "Toast"
+      ],
+      "requiredBackendPieces": [
+        "contract",
+        "validation",
+        "permission guard"
+      ],
+      "requiredTests": [
+        "route renders",
+        "backend contract",
+        "permission failure"
+      ]
+    },
+    {
+      "patternId": "WORKFLOW_BUILDER",
+      "patternName": "workflow builder",
+      "triggerWords": [
+        "workflow_builder"
+      ],
+      "requiredComponents": [
+        "Root",
+        "Button",
+        "Card",
+        "Toast"
+      ],
+      "requiredBackendPieces": [
+        "contract",
+        "validation",
+        "permission guard"
+      ],
+      "requiredTests": [
+        "route renders",
+        "backend contract",
+        "permission failure"
+      ]
+    },
+    {
+      "patternId": "MONITORING_DASHBOARD",
+      "patternName": "monitoring dashboard",
+      "triggerWords": [
+        "monitoring_dashboard"
+      ],
+      "requiredComponents": [
+        "Root",
+        "Button",
+        "Card",
+        "Toast"
+      ],
+      "requiredBackendPieces": [
+        "contract",
+        "validation",
+        "permission guard"
+      ],
+      "requiredTests": [
+        "route renders",
+        "backend contract",
+        "permission failure"
+      ]
+    },
+    {
+      "patternId": "REALTIME_TABLE_VIEW",
+      "patternName": "realtime table view",
+      "triggerWords": [
+        "realtime_table_view"
+      ],
+      "requiredComponents": [
+        "Root",
+        "Button",
+        "Card",
+        "Toast"
+      ],
+      "requiredBackendPieces": [
+        "contract",
+        "validation",
+        "permission guard"
+      ],
+      "requiredTests": [
+        "route renders",
+        "backend contract",
+        "permission failure"
+      ]
+    },
+    {
+      "patternId": "CHAT_INTERFACE",
+      "patternName": "chat interface",
+      "triggerWords": [
+        "chat_interface"
+      ],
+      "requiredComponents": [
+        "Root",
+        "Button",
+        "Card",
+        "Toast"
+      ],
+      "requiredBackendPieces": [
+        "contract",
+        "validation",
+        "permission guard"
+      ],
+      "requiredTests": [
+        "route renders",
+        "backend contract",
+        "permission failure"
+      ]
+    },
+    {
+      "patternId": "SEARCH_FILTER_PAGINATION",
+      "patternName": "search filter pagination",
+      "triggerWords": [
+        "search_filter_pagination"
+      ],
+      "requiredComponents": [
+        "Root",
+        "Button",
+        "Card",
+        "Toast"
+      ],
+      "requiredBackendPieces": [
+        "contract",
+        "validation",
+        "permission guard"
+      ],
+      "requiredTests": [
+        "route renders",
+        "backend contract",
+        "permission failure"
+      ]
+    },
+    {
+      "patternId": "AUDIT_LOG_VIEWER",
+      "patternName": "audit log viewer",
+      "triggerWords": [
+        "audit_log_viewer"
+      ],
+      "requiredComponents": [
+        "Root",
+        "Button",
+        "Card",
+        "Toast"
+      ],
+      "requiredBackendPieces": [
+        "contract",
+        "validation",
+        "permission guard"
+      ],
+      "requiredTests": [
+        "route renders",
+        "backend contract",
+        "permission failure"
+      ]
+    },
+    {
+      "patternId": "REPORTING_DASHBOARD",
+      "patternName": "reporting dashboard",
+      "triggerWords": [
+        "reporting_dashboard"
+      ],
+      "requiredComponents": [
+        "Root",
+        "Button",
+        "Card",
+        "Toast"
+      ],
+      "requiredBackendPieces": [
+        "contract",
+        "validation",
+        "permission guard"
+      ],
+      "requiredTests": [
+        "route renders",
+        "backend contract",
+        "permission failure"
+      ]
+    },
+    {
+      "patternId": "NOTIFICATION_CENTER",
+      "patternName": "notification center",
+      "triggerWords": [
+        "notification_center"
+      ],
+      "requiredComponents": [
+        "Root",
+        "Button",
+        "Card",
+        "Toast"
+      ],
+      "requiredBackendPieces": [
+        "contract",
+        "validation",
+        "permission guard"
+      ],
+      "requiredTests": [
+        "route renders",
+        "backend contract",
+        "permission failure"
+      ]
+    },
+    {
+      "patternId": "BILLING_OR_PLAN_MANAGEMENT",
+      "patternName": "billing or plan management",
+      "triggerWords": [
+        "billing_or_plan_management"
+      ],
+      "requiredComponents": [
+        "Root",
+        "Button",
+        "Card",
+        "Toast"
+      ],
+      "requiredBackendPieces": [
+        "contract",
+        "validation",
+        "permission guard"
+      ],
+      "requiredTests": [
+        "route renders",
+        "backend contract",
+        "permission failure"
+      ]
+    },
+    {
+      "patternId": "PUBLIC_LANDING_PAGE",
+      "patternName": "public landing page",
+      "triggerWords": [
+        "public_landing_page"
+      ],
+      "requiredComponents": [
+        "Root",
+        "Button",
+        "Card",
+        "Toast"
+      ],
+      "requiredBackendPieces": [
+        "contract",
+        "validation",
+        "permission guard"
+      ],
+      "requiredTests": [
+        "route renders",
+        "backend contract",
+        "permission failure"
+      ]
+    },
+    {
+      "patternId": "PRICING_PAGE",
+      "patternName": "pricing page",
+      "triggerWords": [
+        "pricing_page"
+      ],
+      "requiredComponents": [
+        "Root",
+        "Button",
+        "Card",
+        "Toast"
+      ],
+      "requiredBackendPieces": [
+        "contract",
+        "validation",
+        "permission guard"
+      ],
+      "requiredTests": [
+        "route renders",
+        "backend contract",
+        "permission failure"
+      ]
+    },
+    {
+      "patternId": "HELP_OR_DOCS_PAGE",
+      "patternName": "help or docs page",
+      "triggerWords": [
+        "help_or_docs_page"
+      ],
+      "requiredComponents": [
+        "Root",
+        "Button",
+        "Card",
+        "Toast"
+      ],
+      "requiredBackendPieces": [
+        "contract",
+        "validation",
+        "permission guard"
+      ],
+      "requiredTests": [
+        "route renders",
+        "backend contract",
+        "permission failure"
+      ]
+    },
+    {
+      "patternId": "PWA_OFFLINE_FALLBACK",
+      "patternName": "pwa offline fallback",
+      "triggerWords": [
+        "pwa_offline_fallback"
+      ],
+      "requiredComponents": [
+        "Root",
+        "Button",
+        "Card",
+        "Toast"
+      ],
+      "requiredBackendPieces": [
+        "contract",
+        "validation",
+        "permission guard"
+      ],
+      "requiredTests": [
+        "route renders",
+        "backend contract",
+        "permission failure"
+      ]
+    }
+  ]
+}

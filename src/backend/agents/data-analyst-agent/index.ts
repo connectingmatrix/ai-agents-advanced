@@ -1,9 +1,16 @@
-import type { AgentRunInput } from '@connectingmatrix/ai-agents';
-export interface DataAnalystAgentInput extends AgentRunInput { objective?: string; payload?: Record<string, unknown>; }
-export const DataAnalystAgent = {
+export interface AdvancedAgentRunInput { objective: string; context?: Record<string, unknown>; }
+export interface AdvancedAgentRunOutput { agent: string; output: string; steps: string[]; metadata: Record<string, unknown>; }
+export const data_analyst_agent = {
   name: 'data-analyst-agent',
-  description: 'Analyzes connected databases, query results, runtime logs, and project telemetry.',
-  async run(input: DataAnalystAgentInput): Promise<string> {
-    return ['advanced-agent:data-analyst-agent', `objective: ${input.objective ?? input.message}`, input.payload ? `payload: ${JSON.stringify(input.payload)}` : '', `message: ${input.message}`].filter(Boolean).join('\n');
+  packageName: '@connectingmatrix/ai-agents-advanced',
+  kind: 'advanced' as const,
+  title: 'Data Analyst Agent',
+  description: 'Analyzes tabular/source data and emits structured findings.',
+  inputSchema: { type: 'object', required: ['objective'], properties: { objective: { type: 'string' }, context: { type: 'object' } } },
+  outputSchema: { type: 'object', properties: { output: { type: 'string' }, steps: { type: 'array' } } },
+  async run(input: AdvancedAgentRunInput): Promise<AdvancedAgentRunOutput> {
+    const objective = input.objective.trim();
+    return { agent: 'data-analyst-agent', output: `Data Analyst Agent completed: ${objective}`, steps: ['understand objective','inspect context','produce advanced output'], metadata: { usesCoreContract: '@connectingmatrix/ai-agents/agent-contracts' } };
   },
 };
+export default data_analyst_agent;

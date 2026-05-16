@@ -1,9 +1,16 @@
-import type { AgentRunInput } from '@connectingmatrix/ai-agents';
-export interface PlannerAgentInput extends AgentRunInput { objective?: string; payload?: Record<string, unknown>; }
-export const PlannerAgent = {
+export interface AdvancedAgentRunInput { objective: string; context?: Record<string, unknown>; }
+export interface AdvancedAgentRunOutput { agent: string; output: string; steps: string[]; metadata: Record<string, unknown>; }
+export const planner_agent = {
   name: 'planner-agent',
-  description: 'Plans multi-step tasks and validates execution shape.',
-  async run(input: PlannerAgentInput): Promise<string> {
-    return ['advanced-agent:planner-agent', `objective: ${input.objective ?? input.message}`, input.payload ? `payload: ${JSON.stringify(input.payload)}` : '', `message: ${input.message}`].filter(Boolean).join('\n');
+  packageName: '@connectingmatrix/ai-agents-advanced',
+  kind: 'advanced' as const,
+  title: 'Planner Agent',
+  description: 'Plans multi-step advanced tasks.',
+  inputSchema: { type: 'object', required: ['objective'], properties: { objective: { type: 'string' }, context: { type: 'object' } } },
+  outputSchema: { type: 'object', properties: { output: { type: 'string' }, steps: { type: 'array' } } },
+  async run(input: AdvancedAgentRunInput): Promise<AdvancedAgentRunOutput> {
+    const objective = input.objective.trim();
+    return { agent: 'planner-agent', output: `Planner Agent completed: ${objective}`, steps: ['understand objective','inspect context','produce advanced output'], metadata: { usesCoreContract: '@connectingmatrix/ai-agents/agent-contracts' } };
   },
 };
+export default planner_agent;

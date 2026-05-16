@@ -1,0 +1,1 @@
+{ "contracts": ["UIKitComponentMatrixEntry", "FeaturePattern", "UserStory", "StoryMatrixMapping", "RouteRbacEntry", "CrudMatrixEntry", "BackendEndpointContract", "ValueScore"], "rule": "Generated app metadata must expose these contracts before code generation." }

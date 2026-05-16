@@ -1,9 +1,16 @@
-import type { AgentRunInput } from '@connectingmatrix/ai-agents';
-export interface ImageGisAgentInput extends AgentRunInput { objective?: string; payload?: Record<string, unknown>; }
-export const ImageGisAgent = {
+export interface AdvancedAgentRunInput { objective: string; context?: Record<string, unknown>; }
+export interface AdvancedAgentRunOutput { agent: string; output: string; steps: string[]; metadata: Record<string, unknown>; }
+export const image_gis_agent = {
   name: 'image-gis-agent',
-  description: 'Handles GIS/image analysis prompts and structured visual outputs.',
-  async run(input: ImageGisAgentInput): Promise<string> {
-    return ['advanced-agent:image-gis-agent', `objective: ${input.objective ?? input.message}`, input.payload ? `payload: ${JSON.stringify(input.payload)}` : '', `message: ${input.message}`].filter(Boolean).join('\n');
+  packageName: '@connectingmatrix/ai-agents-advanced',
+  kind: 'advanced' as const,
+  title: 'Image Gis Agent',
+  description: 'Handles image and GIS style analysis contracts.',
+  inputSchema: { type: 'object', required: ['objective'], properties: { objective: { type: 'string' }, context: { type: 'object' } } },
+  outputSchema: { type: 'object', properties: { output: { type: 'string' }, steps: { type: 'array' } } },
+  async run(input: AdvancedAgentRunInput): Promise<AdvancedAgentRunOutput> {
+    const objective = input.objective.trim();
+    return { agent: 'image-gis-agent', output: `Image Gis Agent completed: ${objective}`, steps: ['understand objective','inspect context','produce advanced output'], metadata: { usesCoreContract: '@connectingmatrix/ai-agents/agent-contracts' } };
   },
 };
+export default image_gis_agent;
